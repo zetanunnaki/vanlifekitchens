@@ -1,0 +1,8 @@
+echo "→ Running TypeScript typecheck..."
+npx tsc --noEmit || {
+  echo ""
+  echo "✗ TypeScript errors found. Fix them before committing."
+  echo "  (If you really need to bypass this, use: git commit --no-verify)"
+  exit 1
+}
+echo "✓ Typecheck passed."
