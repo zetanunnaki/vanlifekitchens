@@ -1,0 +1,12 @@
+{
+  "appliances": [
+    { "key": "fridge-small", "label": "12V Fridge (30L)", "watts": 45, "hoursPerDay": 8 },
+    { "key": "fridge-large", "label": "12V Fridge (50L)", "watts": 60, "hoursPerDay": 10 },
+    { "key": "induction", "label": "Induction Cooktop", "watts": 1800, "hoursPerDay": 0.5 },
+    { "key": "kettle", "label": "Electric Kettle", "watts": 1500, "hoursPerDay": 0.15 },
+    { "key": "coffee", "label": "Coffee Maker", "watts": 1000, "hoursPerDay": 0.1 },
+    { "key": "microwave", "label": "12V Microwave", "watts": 600, "hoursPerDay": 0.15 },
+    { "key": "blender", "label": "Portable Blender", "watts": 200, "hoursPerDay": 0.1 },
+    { "key": "toaster", "label": "Toaster Oven", "watts": 1200, "hoursPerDay": 0.25 }
+  ]
+}

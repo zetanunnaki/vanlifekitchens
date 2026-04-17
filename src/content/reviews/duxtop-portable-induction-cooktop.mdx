@@ -1,0 +1,120 @@
+## Overview — Who is this for?
+
+The Duxtop 9100MC is the cooktop I actually recommend to people who message me asking what budget induction unit to buy for their van. It is not fancy. It is not the one influencers pose with on a walnut countertop. It is a roughly $75 ceramic-glass induction burner that has been quietly doing the job in full-time vans, shuttle buses, overlanders and cheap Airbnb kitchens for years, and the reason it keeps getting recommended is boring: it works, it is cheap to replace if you break it, and the sealed button controls survive the kind of abuse a moving kitchen puts on electronics.
+
+If you are still choosing between butane, propane and induction, this review is partly for you too. The real question is almost never "is this a good induction burner" (it is), but "is induction the right call for my specific battery and inverter setup." I will be blunt about that in the power section.
+
+> **Short version:** if you already have a 2,000W pure sine wave inverter and at least 200Ah of usable lithium, buy it. If you do not, keep reading before you spend anything.
+
+## Design & Build Quality
+
+Physically, the 9100MC is a slab: 11.4 x 14 x 2.5 inches, 6.5 pounds, ABS plastic housing with a ceramic glass cooking surface and a control panel of actual physical buttons, not a capacitive touch strip. That last part matters more than it sounds. Capacitive touch panels (the kind you find on the LCD-heavy Duxtop 8100 and most Nuwave units) misread when the glass is wet, when your hands are wet, and sometimes when the unit vibrates on a rough road. The sealed physical buttons on the 9100MC do not care. Wet hands, greasy hands, a finger through a dish towel — it still registers.
+
+The glass top is the same Schott-style ceramic you see on every induction burner in this price class. It will scratch if you drag cast iron across it, and it will crack if you drop a full Dutch oven on it from ten inches up. Treat it like glass, because it is glass.
+
+The housing feels cheap in the hand, and it is cheap. The fan vent on the bottom is the weak point: crumbs, flour and sand get sucked in. I vacuum mine out every couple of months with a dust blower. One year warranty. I have had a Duxtop run four years of full-time use before the fan started getting loud, and I have seen one die in six months because someone stored it next to a leaky water jug. Splash protection is not its strong suit.
+
+## Performance
+
+This is where cheap induction earns its keep. The 9100MC puts out a peak of 1800W, spread across 15 discrete power levels from roughly 200W up to the full 1800W. That is finer-grained control than almost any butane or propane stove can offer, and it shows up in actual cooking.
+
+### Boil tests
+
+One liter of 60°F tap water in a thin-walled stainless pot with a lid, on power level 10 (1800W): **3 minutes 40 seconds to a rolling boil.** Same test without a lid: 4 minutes 20 seconds. For comparison, my old single-burner butane stove on full blast took 6 minutes 30 seconds covered. A Coleman two-burner propane stove on the high burner took just over 5 minutes.
+
+Two liters, covered, power 10: 6 minutes 50 seconds. That is fast enough that pasta night does not feel like a project.
+
+### Sear tests
+
+This is where a lot of portable induction disappoints, and the Duxtop is honest about its limits. Dropping a cold ribeye onto a preheated 10-inch cast iron skillet at power 10, I get a decent crust in about 3 minutes a side. Not steakhouse-level — the 1800W peak and the modest induction coil diameter (about 6 inches of effective heating) mean a 12-inch skillet will have hot center and lukewarm edges. If you want to sear, use a pan that matches the coil: a 9 or 10 inch cast iron or carbon steel is the sweet spot.
+
+The unit also cycles power on and off at the top end if the pan gets too hot — you will hear the relay click and feel the element throttling. It is not true continuous 1800W. For most meals you never notice. For a proper Maillard sear on a dry-aged cut, you would notice, and for that I would just use a grill.
+
+### Simmer precision
+
+Low-power performance is where cheap induction usually falls apart, because under about 400W, most units just pulse the element on and off at full power every few seconds. The 9100MC does this too, but the pulse cycle is quick enough and the 15-step resolution is fine enough that I can hold a real simmer on a pot of chili or a bolognese without scorching the bottom. Rice cooks clean on level 3 or 4. Chocolate melts without a double boiler on level 2. A roux does not burn on level 5 if you stir normally.
+
+Is it as smooth as a built-in Kenyon or a propane burner with a good flame diffuser? No. But it is workable, and it is better than any butane single-burner I have used.
+
+## Power Consumption
+
+Here is the section that decides whether you should buy this or not. Read it twice.
+
+At full output, the 9100MC pulls roughly **1800W from your inverter's AC side.** On a 12V battery bank, after inverter losses (call it 88% efficiency for a decent pure sine unit), that works out to about **170 amps** of DC draw at full tilt. The often-quoted "150A at 12V" number assumes a perfect inverter and a fully-charged battery sitting at 13.2V. In practice, plan for 160 to 175A.
+
+That number is why I keep telling people the cooktop is not the problem — the infrastructure is.
+
+### Inverter sizing
+
+You need a **pure sine wave inverter rated for at least 2,000W continuous**, not peak. Modified sine wave inverters will either refuse to run the Duxtop or will run it badly, with the control board doing strange things. A 1,500W inverter will trip on surge when the element kicks in. A 2,000W unit with a 4,000W surge rating is the minimum I would build around. A 3,000W inverter gives you headroom to run a kettle and the cooktop on the same circuit without tripping.
+
+### Battery sizing and daily Ah
+
+Real-world numbers from my own cooking logs, measured at the shunt:
+
+- **One person, one hot meal a day** (coffee, one skillet breakfast every other day, one 30-minute dinner with simmer): about **25 to 35 Ah per day** at 12V. Call it 400 watt-hours. A 100Ah lithium bank can absorb this if you have solar to top it up, but you will feel it on cloudy days.
+- **Two people, full cooking** (coffee in the morning, one cooked breakfast, one full dinner with a sear and a 40-minute simmer, maybe a kettle for tea): **60 to 90 Ah per day.** Call it 800 to 1,100 watt-hours. This is why I tell couples to build around 200Ah of lithium minimum, and 300Ah if you are north of 40° latitude in winter.
+
+A rough rule I use: **a 1,800W burner on level 10 for one minute costs about 2.5 Ah.** Boiling 1L of water: ~9 Ah. Cooking a full stir-fry (4 minutes on 10, 8 minutes on 7): ~25 Ah. A 40-minute low simmer on level 4: ~15 Ah.
+
+If those numbers scare you, they should. Induction is not free. For more on sizing a system around all your DC loads including fridge and cooktop, the [power calculator](/tools/power) on this site will run the math for your specific build, and the [12V fridge buying guide](/guides/12v-fridge-buying-guide) covers the other big draw in the kitchen.
+
+### When induction is the wrong answer
+
+If you are boondocking in sub-freezing temperatures, your solar is producing a fraction of its rated output, lithium charging is throttled or locked out below 32°F, and you are running a diesel heater all night. In that scenario, **a $25 butane stove plus $3 cartridges is cheaper to run than induction**, period. I keep a backup butane single-burner in every van I have built, and I use it from November through March above 45° latitude.
+
+## Size & Portability
+
+6.5 pounds is light enough to stow in a drawer or a slide-out, and the slab profile fits under most fixed-height counters. The 2.5-inch thickness is the main constraint — if your galley drawer is shallower than 3 inches, this will not fit flat. I store mine vertically in a padded slot next to the fridge.
+
+There is no fold-out handle or carry strap, which is mildly annoying. A $6 neoprene laptop sleeve from the dollar-store is what I use for transport, and it has saved the glass surface at least twice.
+
+The power cord is about 40 inches, hardwired, not removable. Plan your outlet location accordingly — an outlet placed too far from the cooking surface means an extension cord across the galley, which is a tripping hazard and an ugly look.
+
+## Ease of Cleaning & Daily Use
+
+Flat glass, no burner grates, no spatter shields. A damp microfiber cloth handles 90% of spills. Burned-on sauce comes off with a scraper and a dab of Bar Keepers Friend. The button panel wipes clean without grabbing crumbs the way capacitive touch panels do.
+
+Daily quirks worth knowing:
+
+- The unit beeps loudly on every button press. There is no way to mute it. In a quiet van at 6am, it is obnoxious. I have considered opening the case to disconnect the piezo buzzer and never actually done it.
+- The cooling fan runs for about 30 seconds after you turn the unit off. Do not unplug it immediately.
+- Child lock is a simple long-press on the lock button. Useful when the cooktop is stored and you do not want a bumped button to fire up the element while something flammable is on top.
+- The timer maxes out at 170 minutes and is actually precise, unlike a lot of cheap timers.
+- It will not run without a ferrous-bottom pan. Test your pans with a fridge magnet before you assume they will work. All-Clad D3, Lodge cast iron, and most carbon steel works. Pure aluminum and some thin stainless does not.
+
+## Value for Money
+
+At roughly $75, replacing it when it dies costs less than one fill of a twin-tank propane setup. The math on "buy the cheap one and replace it in four years" is much better than "buy the $400 built-in and hope it lasts eight." For a mobile kitchen that lives in a vibrating box, disposable is a feature, not a bug.
+
+There is also a real psychological benefit to a cheap tool: you actually use it. A $900 built-in gets babied. A $75 Duxtop gets used, scrubbed, and replaced without drama. That is the right relationship for a van kitchen.
+
+## How it compares
+
+### vs butane stoves
+
+Butane wins on upfront cost ($20 to $40), on winter reliability, and on "I do not need any electrical infrastructure to cook." It loses on fuel availability (try finding butane cartridges in rural Nevada), on fine control at low heat, on indoor air quality, and on the slow creeping cost — cartridges add up fast if you cook twice a day. Over a year of full-time cooking, butane ends up costing more than the Duxtop plus electricity from solar.
+
+### vs built-in induction (Kenyon)
+
+A Kenyon SilKEN or similar drop-in unit is beautifully made, has a proper glass panel, cleaner looks, and lasts. It also costs $700 to $1,000, draws the same ~1,800W, and if it breaks you are pulling out countertop to replace it. For anyone on a first build or unsure about their layout, the Duxtop is the right answer until you are certain. Live with a portable for a year, learn your cooking patterns, and then decide if a built-in is worth the money and the install work.
+
+### vs Nuwave (and second-tier portables)
+
+The Nuwave PIC Flex and similar units often advertise more power levels (45+ "temperature settings") and fancier touch panels. In practice those extra steps are marketing — the unit is still pulsing the element at low power. The touch panels are a liability in a van. I have replaced two Nuwaves with Duxtops for friends after the touch panel failed. The Duxtop is less pretty and more reliable.
+
+## Who should skip this
+
+- **Anyone with less than a 2,000W pure sine wave inverter.** Do not buy this and hope. It will not run properly.
+- **Anyone with less than ~150Ah of usable lithium** and no solar. You will drain the bank faster than you can recharge.
+- **Cold-weather full-timers** who cannot keep the battery bank above freezing reliably. Butane is cheaper and less fragile in that use case.
+- **People who want two burners simultaneously.** This is a single burner. If you are cooking for more than two regularly, a twin induction or a propane two-burner is the right tool.
+- **Anyone with only aluminum cookware.** Replace the pans or skip induction entirely.
+
+## Final Verdict
+
+The Duxtop 9100MC is the cooktop I would buy tomorrow if mine died tonight. It is not the best induction burner in the world — it is the best induction burner for the money, and at this price point "best for the money" is what you want in a van, because vans eat appliances. The sealed buttons, the fine-enough simmer control, the four-minute boil and the honest behavior under sustained load add up to a unit that pulls its weight.
+
+The catch, and it is the entire catch, is that the cooktop is the cheap part. The inverter, the battery bank and the solar to feed it are where the money actually goes. If your electrical system is built for it, the Duxtop is a no-brainer. If it is not, no cooktop on Earth will fix that, and you should start with your power audit before you click buy.
+
+For a full-time van dweller with a properly sized electrical system: **buy it, use it daily, keep a butane backup for winter, replace it in four years without regret.** That is the honest recommendation.

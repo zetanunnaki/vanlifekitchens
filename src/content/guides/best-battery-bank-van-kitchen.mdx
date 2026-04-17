@@ -1,0 +1,103 @@
+## Why lithium specifically (vs AGM/lead-acid)
+
+If you're running a kitchen in a van, lithium iron phosphate (LiFePO4) isn't a luxury — it's the only chemistry that actually works. Here's the uncomfortable math with AGM: a 100Ah AGM battery only gives you about 50Ah of usable capacity before you start damaging the cells. A 100Ah LiFePO4 gives you 90–100Ah usable. So a "200Ah AGM bank" is really a 100Ah bank that weighs 130 pounds and dies in 500 cycles.
+
+LiFePO4 also holds voltage flat. At 50% state of charge, a lead-acid battery is sagging to 12.1V and your induction cooktop is throwing low-voltage errors. A LiFePO4 cell sits at 13.2V from 90% all the way down to 15%. Your inverter sees stable voltage, your compressor fridge doesn't cycle weirdly, and your water pump doesn't whine.
+
+Cycle life is the other big one. A quality LiFePO4 cell gives you 3,000–5,000 cycles to 80% capacity. AGM gives you 500–800 if you're careful and half that if you aren't. Over a five-year build, lithium is cheaper per usable amp-hour even though the sticker price is 2–3x higher.
+
+The last thing: lithium charges fast. You can push 0.5C into most LiFePO4 banks (50A into a 100Ah battery) without stressing anything. AGM caps around 0.2C and tapers hard after 80%. When you're trying to recover your bank on a cloudy day with a 40A DC-DC charger, that matters.
+
+## The math: kitchen load × 2 ÷ 0.8 = battery size
+
+Before you pick a size, you need an honest load number. Sum the watt-hours each kitchen appliance pulls in a typical day. A 12V compressor fridge runs 30–45Ah/day depending on ambient temp. An induction cooktop pulls roughly 1,500W during active cooking — call it 30 minutes a day for two meals, that's 750Wh or about 62Ah at 12V after inverter losses. A Shurflo-class water pump is negligible, maybe 2–3Ah/day. LED lights, another 3–5Ah.
+
+Add it up: a modest kitchen is 80–100Ah/day. A heavy induction kitchen is 150–180Ah/day. A full setup with a freezer compartment is 200Ah+.
+
+Now the formula. Take that daily kitchen load, multiply by 2 (so you have a reserve day for cloudy weather or when you didn't drive), then divide by 0.8 (because you want to stay between 10% and 90% state of charge for longevity, not hammer the bank flat every night). A 100Ah/day kitchen needs: 100 × 2 ÷ 0.8 = 250Ah of nameplate capacity.
+
+That's the rule. It's conservative on purpose — batteries age, cold weather steals capacity, and you will inevitably add a laptop charger and a Starlink later. For a more granular breakdown by appliance, the [van kitchen power budget guide](/guides/van-kitchen-power-budget) walks through each load in detail, and the [power sizing tool](/tools/power) lets you plug in your exact appliance list.
+
+## The 100Ah build — minimal kitchen
+
+One 100Ah LiFePO4 battery gives you roughly 1,280Wh nameplate and about 1,024Wh usable (80% depth of discharge). That's enough for a minimal kitchen: a small 40L compressor fridge, LED lights, a water pump, and a butane or propane cooktop for hot food. You can't run induction on this bank — or rather, you can, but you'll drain it in 40 minutes of cooking.
+
+Typical daily budget on a 100Ah bank: 30Ah fridge + 5Ah lights/pump + 15Ah laptop charging + 10Ah miscellaneous = 60Ah. That leaves you 20–30Ah of headroom, which is thin. One cloudy day and you're at 20% SOC by morning.
+
+Who it's for: weekenders, part-time vanlifers, people cooking on gas, and builds where the kitchen is secondary to the sleeping area. LiTime and Renogy both sell 100Ah Group 24-sized LiFePO4 batteries in the $280–$400 range on Amazon and Walmart, and either one is fine at this tier. The BMS should support at least 100A continuous discharge so a short inverter spike for a blender or kettle doesn't trip it.
+
+Charge sources for a 100Ah build can be modest: a 20A DC-DC charger from the alternator and 200W of solar will fully recharge this bank in a few hours of driving or a sunny afternoon.
+
+## The 200Ah build — full kitchen for two
+
+This is the sweet spot for most full-time vanlife kitchens. Two 100Ah LiFePO4 batteries in parallel — or a single 200Ah unit — gives you 2,560Wh nameplate, roughly 2,000Wh usable. You can run a proper fridge (60–90L), a 1,000W inverter for a single-burner induction cooktop, a kettle, a toaster, and still have reserve for a laptop and lights.
+
+Daily budget: 40Ah fridge + 60Ah induction (about 25 minutes of actual cooking) + 15Ah laptop + 10Ah lights/pump/misc = 125Ah. With 160Ah usable, you have a full day of buffer. Run the formula backward: 125 × 2 ÷ 0.8 = 312Ah ideal, so 200Ah is slightly under-spec for a true two-person heavy-cook household, but it works if you're driving most days or have 400W+ of solar.
+
+At this size, you want a serious BMS. A 200A continuous discharge rating is the floor — induction cooktops pull 80–100A at 12V during full-power boil, and you don't want the BMS tripping mid-sauté. Battle Born's 100Ah Heated GC2 batteries (two of them) are the premium pick; LiTime's 200Ah Plus and Renogy's 200Ah Smart Lithium are the value picks. All four are on Amazon and Walmart.
+
+Inverter sizing at this tier: a 2,000W pure sine wave inverter. Smaller inverters will brownout on induction startup surge, and bigger ones waste idle current. Victron, Renogy, and AIMS Power all make 2,000W units that handle induction cleanly.
+
+## The 300Ah build — heavy induction cooking + freezer
+
+Three 100Ah or one 300Ah LiFePO4 gives you 3,840Wh nameplate and roughly 3,000Wh usable. This is the build for people who cook two induction meals a day, run a dedicated freezer drawer alongside the fridge, bake with a 12V oven, or travel with two people who both work from the van and push 200Ah/day in kitchen loads alone.
+
+Daily budget on this tier: 50Ah combined fridge + freezer + 90Ah induction (45 minutes of active cooking across two meals) + 25Ah for two laptops and Starlink + 15Ah lights and pump = 180Ah. With 240Ah usable, you have a comfortable one-day reserve without needing to drive or see sun.
+
+At 300Ah, wiring becomes a real consideration. You need 4/0 AWG cables between the bank and the inverter, a 400A Class T fuse on the positive terminal, and a bus bar system rather than daisy-chained lugs. A 3,000W inverter is the correct size — it gives you headroom for a 1,800W induction cooktop plus another appliance running simultaneously.
+
+Brand-wise at this scale, the math starts favoring larger single-unit batteries over multiple 100Ah bricks. A single AIMS Power 300Ah or LiTime 300Ah Plus is simpler to wire than three separate batteries with balanced cabling. Battle Born doesn't make a 300Ah single unit yet, so if you want Battle Born at this tier you're running three 100Ah units with careful parallel balancing.
+
+## Charge sources (alternator DC-DC, solar, shore power)
+
+A battery bank is useless without a way to refill it. Three sources matter for a kitchen van:
+
+Alternator via DC-DC charger: this is your workhorse. A 40A DC-DC charger (Renogy, Victron Orion XS, or Kisae) pulls 40A at 14.4V from your starter circuit and pushes it into the house bank whenever the engine runs. One hour of driving puts about 40Ah back in the bank — enough to offset a typical dinner cook. For the 300Ah build, step up to a 50A or 60A unit. Do not skip the DC-DC: connecting a lithium house bank directly to the alternator will either overheat the alternator or undercharge the lithium, depending on the vehicle.
+
+Solar: rule of thumb is 1W of solar per 1Ah of battery in sunny climates, 1.5W per Ah if you're in the Pacific Northwest or chasing winter. So 200W for the 100Ah build, 300–400W for 200Ah, and 500–600W for 300Ah. MPPT controllers only — PWM wastes 20–30% of your panel output.
+
+Shore power: a 40A–60A lithium-profile converter/charger lets you fully recharge from a campground pedestal in 4–6 hours. Progressive Dynamics, Victron, and AIMS all make units with a proper LiFePO4 charge curve.
+
+## Cold weather: self-heating vs cabinet heating
+
+LiFePO4 cannot be charged below 32°F (0°C). Discharging below freezing is fine — you can cook dinner in a cold van without hurting the bank — but pushing charge current into a frozen cell causes permanent lithium plating and kills the battery.
+
+Two solutions. The first is self-heating batteries: Battle Born's Heated series and LiTime's Heated 200Ah include internal heating pads powered from the incoming charge current. When the BMS senses cell temp below 32°F and detects charge voltage, it diverts some of that current to the heater until cells are warm, then starts actual charging. This is the cleanest solution and adds maybe $150–$200 per battery.
+
+The second is cabinet heating: you put your batteries inside the insulated living space, not in an exterior compartment, and let cabin heat keep them above freezing. This works if you're running a diesel heater overnight. It doesn't work if you park the van in a ski lot for three days. The [cold weather van cooking guide](/guides/cold-weather-van-cooking) covers the full winter battery protection workflow including insulation strategies.
+
+## Brand notes (Battle Born vs Renogy vs LiTime vs AIMS)
+
+Battle Born is the premium US brand — Reno, Nevada assembly, 10-year warranty, excellent customer support, and cell matching that shows up in real-world longevity. You pay 2x what you'd pay for a Chinese import. Worth it if you're full-timing and your kitchen is mission-critical. Available on Amazon and Walmart.
+
+Renogy is the middle tier — Chinese cells, solid BMS, 5-year warranty, good app integration on the Smart Lithium line. Their 200Ah and 300Ah units are probably the best value per usable amp-hour right now. Full Amazon and Walmart availability.
+
+LiTime (formerly Ampere Time) is the value king. Prices are 40–50% below Battle Born, the cells are grade-A EVE or CATL in most cases, and the BMS handles the loads it's rated for. The catch is warranty — if something goes wrong in year 4, getting a replacement shipped can be slow. For most builders, the savings justify the risk. Sold on both Amazon and Walmart.
+
+AIMS Power is the industrial pick — they lean toward larger capacity units (300Ah+) and high-current BMS ratings. Their inverters and batteries are often bundled in off-grid builds. Slightly less consumer-friendly documentation than the others but rock-solid hardware. Available through Amazon and Walmart.
+
+## Common mistakes
+
+Undersizing the inverter: a 1,000W inverter on a 2,000W induction cooktop will brownout and shut down. Match inverter continuous rating to peak appliance draw plus 25%.
+
+Mixing old and new batteries in parallel: LiFePO4 batteries in parallel should be the same age, same capacity, and ideally same manufacturing batch. Mixing a 2-year-old 100Ah with a new 100Ah causes current imbalance that stresses the older cells.
+
+Skipping the Class T fuse: a 200Ah+ bank can dump thousands of amps into a short. Only a Class T (or equivalent) fuse interrupts that safely. ANL fuses are not rated for lithium fault currents.
+
+Forgetting low-temp cutoff: if you buy non-heated batteries, your charge controller and DC-DC charger both need a low-temperature cutoff wired to a battery-mounted temp sensor. Otherwise a cold morning of solar will kill the bank silently.
+
+Wiring too thin: every 200A jump up in capacity usually means stepping up cable gauge. Thin wire drops voltage, heats up, and makes your expensive lithium act like cheap lead-acid.
+
+## FAQ
+
+How long will a 200Ah bank run my fridge if the van is parked? A 60L 12V compressor fridge pulls about 40Ah/day in mild weather. A 200Ah bank with 160Ah usable gives you roughly four days of fridge-only runtime before hitting 20% SOC.
+
+Can I start with 100Ah and add more later? Yes, but only if you buy the second battery from the same manufacturer, same model, same capacity, and within 6 months of the first. Better to buy the right size upfront.
+
+Do I need a battery monitor? Yes. A shunt-based monitor (Victron BMV-712, Renogy 500A) is the only way to know true state of charge. Voltage alone lies on LiFePO4 because the voltage curve is flat.
+
+Will my alternator charge a lithium bank directly? No. Use a DC-DC charger. Direct connection either cooks the alternator or undercharges the bank, and most new vehicles have smart alternators that make this worse.
+
+How much does a full 300Ah lithium kitchen system cost? Budget $2,500–$4,000 for batteries, inverter, DC-DC charger, solar controller, fusing, and cabling. Premium brands push it to $5,000+.
+
+What happens if I discharge below 10%? The BMS will shut off the bank to protect the cells. You're not damaging anything, but you're now stuck without power until you recharge. Size to stay above 20% in normal use.

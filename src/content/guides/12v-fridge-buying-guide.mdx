@@ -1,0 +1,129 @@
+## Why your fridge choice makes or breaks the build
+
+If you are building a van or overland rig, the 12V fridge is the single most consequential appliance you will buy. It is not the most expensive item in the kitchen, but it is the one that runs 24 hours a day in every ambient condition your rig ever sees. Every other load is intermittent: lights go off, the water pump runs for 30 seconds, the cooktop runs for 15 minutes. The fridge never stops.
+
+That continuous duty cycle means the fridge dictates the size of your battery bank, your solar array, and often your alternator charger. Choose a greedy fridge and everything downstream gets bigger and more expensive. Choose an efficient one and you can shrink the rest of the system without sacrificing comfort.
+
+This guide is deliberately not a ranked "best of" list. You will find three picks at the end, but the point of what follows is to teach you how to evaluate a 12V fridge yourself, so that when a new model drops next year you can read its spec sheet and know whether it is any good.
+
+## The two technologies: Compression vs Thermoelectric
+
+There are really only two refrigeration technologies worth discussing for a 12V mobile build. Propane absorption fridges still exist in older RVs, but for a modern DIY van they are a non-starter: they need to be close to level, they are fire-sensitive, and their efficiency collapses above 32C ambient. Skip them.
+
+### Thermoelectric (Peltier) coolers
+
+Thermoelectric coolers use a Peltier junction to move heat. They are cheap, simple, and almost useless for serious van life. A Peltier cooler can typically pull the interior to about **15-20C below ambient**, no colder. On a 30C day that means an interior of 10-15C — not cold enough to keep dairy, eggs, or meat safe. They also draw continuous power with no duty cycle: a typical 40L Peltier pulls **4-5 amps at 12V continuously**, or roughly **96-120 Ah per day**. That is a catastrophic load for a solar-powered van. The rest of this guide assumes compression.
+
+### Compression (DC compressor) fridges
+
+A 12V compression fridge uses a real vapor-compression cycle, identical in principle to the fridge in your house, but driven by a small variable-speed DC compressor. The two compressor families that matter in this market are the **Secop BD35F / BD50F** (formerly Danfoss) and the Chinese **LG / Huayi** compressors used in most budget models. The Secop is the gold standard — quieter, more efficient at low RPM, and rated for tilt up to 30 degrees in any direction without losing oil seal.
+
+A compression fridge can pull its interior to **-20C regardless of ambient**, and — this is the key number — it only runs its compressor when the thermostat calls for cooling. A well-insulated 45L compression fridge holding 4C in 25C ambient will have a duty cycle of roughly **25-35%**, drawing an average of **0.8-1.2 amps at 12V**, which works out to **20-30 Ah per day**. That is three to five times more efficient than a Peltier, and the difference gets larger as the interior target temperature drops.
+
+## The specs that actually matter
+
+Manufacturer spec sheets are full of numbers. These are the ones that predict real-world performance.
+
+### Average current draw (Ah/day)
+
+Ignore the "running wattage" the marketing copy quotes — that is the draw while the compressor is actually running, not the time-averaged draw you care about. What you want is **average amp-hours per 24 hours at a specified interior temperature and ambient**. Good manufacturers publish this; great ones publish it at multiple ambient/interior combinations.
+
+A well-built 40-50L compression fridge should be in the range of **0.5-0.9 Ah/h (12-22 Ah/day)** holding 4C in 20C ambient. Double that for 32C ambient. Triple it for freezer duty.
+
+### Insulation thickness
+
+This is the single most under-discussed spec in the category. Insulation is what determines the duty cycle — the thicker and better the walls, the less the compressor has to run. Cheap fridges use **25-35mm of polyurethane foam**. Premium models (ARB Elements, National Luna Legacy) use **55-75mm**. That doubling of insulation can cut energy use by 30-40% in hot weather.
+
+Always check external vs internal volume. A 45L external fridge with 30mm walls gives more usable space than one with 70mm walls, but drains your battery faster. You are trading interior liters for amp-hours. In a van with limited solar, thicker walls are usually the better trade.
+
+### Ambient temperature rating
+
+Every compression fridge has an ambient temperature range. Look for **-10C to 43C** at minimum; premium units are rated to 50C or even 55C. If you will park the van in direct sun in Moab in July, a 43C-rated unit is borderline. Cabin temperatures inside a closed, parked van routinely hit 50C on a 35C day.
+
+### Dual-zone vs single-zone
+
+A dual-zone fridge has two independently thermostatted compartments, typically sharing one compressor with a damper or using two evaporators. They are genuinely useful if you want freezer capacity without giving up fridge capacity, but there are three things to know:
+
+- Dual-zone units **cost 30-60% more** than comparable single-zone.
+- The freezer zone roughly **doubles the unit's average draw** compared to running the whole thing as a fridge.
+- The divider wall eats **5-8L of internal volume** versus a single-zone of the same external footprint.
+
+If you rarely eat frozen food, a single-zone 50L fridge is a better use of your space and power than a dual-zone 50L where half is frozen.
+
+### Recessed vs surface-mount
+
+Portable fridges (what most people buy) are surface-mount: you strap them onto a platform or a slide. Built-in "drawer" fridges are recessed into cabinetry. Recessed units give you a cleaner build and better use of space, but they demand **engineered ventilation** — typically 50mm of clearance behind the condenser and a vent path to outside air. Miss this and the fridge will thermally choke and double its draw.
+
+## Sizing your power system around the fridge
+
+Here is a worked example using realistic numbers. Run your own version with the [Power Calculator](/tools/power).
+
+**Assumptions.** You buy a 45L single-zone compression fridge. Manufacturer rates it at 0.55 Ah/h average at 4C interior, 25C ambient. You live in the American Southwest, so you plan for 32C average summer ambient. De-rate the published number by roughly 1.7x for the hotter ambient:
+
+- Average draw: **0.55 Ah/h x 1.7 = 0.94 Ah/h**
+- Daily fridge load: **0.94 x 24 = 22.5 Ah/day**
+
+Add the rest of your loads: LED lights (4 Ah/day), water pump (2 Ah/day), MaxxFan overnight (15 Ah/day), USB devices (6 Ah/day), Starlink or laptop work (20 Ah/day). Total other loads: **47 Ah/day**. Total daily consumption: **~70 Ah/day at 12V**.
+
+**Battery sizing.** For LiFePO4, size for 2 days of autonomy and use 80% of nameplate capacity:
+
+> Required battery = (70 Ah/day x 2 days) / 0.8 = **175 Ah**
+
+Round up to a **200 Ah LiFePO4 bank**.
+
+**Solar sizing.** Assume 4 peak sun hours on average across your travel season, and a realistic MPPT harvest efficiency of 75% on a mobile array (partial shade, non-ideal angle, heat derating):
+
+> Required solar = 70 Ah/day x 12V / (4 hours x 0.75) = **280 W**
+
+Round up to a **300-400 W array**. If you only use the van on weekends and plug in at home, you can halve the solar. If you boondock full-time in the desert, add a DC-DC charger from the alternator as insurance.
+
+Notice that the fridge alone (22.5 Ah) drove roughly a third of the whole system. A greedier fridge pulling 40 Ah/day would push you to a 250 Ah battery and a 450W array — probably one more panel on the roof and a larger battery you may not have space for. This is why the fridge is the anchor decision.
+
+## Top-opening vs front-opening vs drawer
+
+**Top-opening (chest-style).** The classic portable. Cold air is heavier than warm air, so when you open the lid the cold air stays in the box. This is measurably more efficient in real use — **10-15% lower average draw** versus an equivalent front-opening unit. The downside is access: everything you want is under everything you do not want. Stackable baskets help. Best for single-zone builds where the fridge lives on a slide under a countertop.
+
+**Front-opening (upright).** Behaves like a home fridge. Massively better for daily access, especially when cooking. Worse for efficiency because cold air dumps out every time you open the door. Also critical: uprights must be installed level and cannot tolerate off-axis tilt as well as chest-style units. Great for fixed installs with real cabinetry.
+
+**Drawer fridges** (Isotherm, Vitrifrigo). Pull-out drawer, recessed into cabinetry. Best daily ergonomics of any option, and the only style that truly integrates into a built kitchen. They cost 2-3x a portable equivalent and require a professional-grade vent path. Worth it for premium full-time builds.
+
+## Installation considerations
+
+- **Ventilation.** Every compression fridge rejects heat from a rear condenser. You need a minimum **30-50mm of clear air behind and above the condenser**, and ideally a path for that hot air to leave the cabinet. In a recessed install, cut a low intake vent and a high exhaust vent. If you skip this, your fridge will run constantly on a hot day.
+- **Mounting.** Portables should be strapped down with **ratcheting tie-downs** (not bungees) to four corners. An unsecured 30kg fridge in a hard stop is a projectile.
+- **Wiring.** Run **at least 10 AWG** from the battery or fuse block for any run over 2m, and fuse it appropriately (typically 15A). Voltage drop at the fridge's LVD (low-voltage disconnect) causes nuisance shutoffs.
+- **Latching during travel.** Chest fridges should have a positive lid latch, not just magnetic. Front-openers need a travel lock or the door swings open on switchbacks. Ask anyone who has cleaned yogurt off the ceiling.
+
+## Brand landscape
+
+- **Dometic.** The default premium brand. CFX3 and CFX5 lines use Secop compressors, have excellent app connectivity, and are widely available worldwide. Pricey but honest. See our [full review of the Dometic CFX3 35](/reviews/dometic-cfx3-35-powered-cooler) for a real-world power draw breakdown.
+- **Iceco.** The value standout. VL-series uses real Secop BD35F compressors at roughly 60% of Dometic pricing. Build quality of the shell and latches is a step down, but the refrigeration guts are identical to units costing twice as much. Best price-per-amp-hour in the category.
+- **ARB.** Australian, built for overlanding. Thick insulation (50mm+), very high ambient ratings, bombproof latches. The Elements line is weatherproof. Expensive and heavy, but the unit your grandchildren will inherit.
+- **National Luna.** South African, hand-built, legendary in the overland community. Stainless interiors, 75mm insulation, weeks-long run times on modest banks. Eye-watering prices and limited US distribution, but in a category of their own.
+- **SetPower.** Chinese, budget-focused, LG compressors (not Secop). Performance is acceptable at moderate ambient but degrades noticeably above 32C. Fine for weekenders and mild climates; marginal for hot-climate full-timers.
+
+## Common mistakes first-time buyers make
+
+1. **Buying on interior volume alone.** A 60L unit is not automatically "better" than a 45L. Bigger fridge = bigger daily draw, bigger battery, bigger solar.
+2. **Trusting peak wattage instead of Ah/day.** A fridge advertised as "45W" tells you almost nothing about daily consumption.
+3. **Ignoring ambient rating.** A 43C-rated fridge is genuinely unhappy at 45C. Park in shade or accept 2x the draw.
+4. **Recessing into a cabinet with no vent path.** Fastest way to turn a good fridge into a bad one.
+5. **Under-fusing and under-wiring.** LVD trips are almost always a wiring problem, not a fridge problem.
+6. **Choosing dual-zone because it sounds premium.** Most people do not actually need a freezer. Be honest about your cooking.
+7. **Forgetting the fridge keeps running when parked at the airport.** If you leave the van for a week, your bank must cover it.
+
+## Our top picks at three price tiers
+
+**Budget: Iceco VL45 ProS.** Real Secop BD35F compressor, 45L, roughly 22 Ah/day at moderate ambient. Around half the cost of the Dometic equivalent. The smartest first fridge for a DIY build.
+
+**Mid: Dometic CFX3 45.** The category benchmark. Excellent insulation, app control, accurate thermostat, proven long-term reliability. If something goes wrong in year 5, you can actually get it serviced.
+
+**Premium: National Luna 50 Twin (Weekender).** Dual-zone done right: real divider, genuine freezer performance, stainless interior, 75mm insulation. Overkill for weekend trips, perfect for full-time overlanding in hot climates.
+
+Price each of these against the rest of your build with the [Budget Calculator](/tools/budget) before committing.
+
+## Final word
+
+The fridge is not where you save money on a van build. It is where you spend money deliberately, because every watt-hour you save there compounds through the entire electrical system. An extra $400 on a more efficient fridge can save $800 in battery and $400 in solar.
+
+Read the spec sheet. Look at insulation thickness, Ah/day at a stated ambient, compressor brand, and ambient rating. If those four numbers look good, the badge on the lid barely matters. Choose the fridge first, then size the rest of the system around it.

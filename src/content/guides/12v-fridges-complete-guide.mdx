@@ -1,0 +1,98 @@
+## The one-page resource for van life refrigeration
+
+This is the pillar guide. If you are building a van kitchen and you need to understand 12V refrigeration top-to-bottom — what it is, how it compares to the alternatives, how to size it, how to power it, how to install it, which models to actually buy — this page is the starting point. Every more specific fridge article on VanLifeKitchen links back here, and this guide links out to every one of them.
+
+A 12V fridge decides more downstream choices in a van kitchen than any other single appliance. It determines battery bank size, solar array size, daily amp draw, food shopping cadence, and whether frozen food is even a possibility. Get the fridge decision right and everything else falls into place. Get it wrong and you will be replacing a battery bank six months later.
+
+## Why 12V compression beats everything else for a van
+
+There are four ways to keep food cold in a vehicle: a cooler with ice, a thermoelectric cooler (Peltier), an absorption refrigerator (three-way, used in older RVs), and a 12V compression fridge. In 2026, only one of these is the right answer for a serious van build, and it is the 12V compression fridge. Here is why each alternative loses.
+
+**Ice coolers** require ice replenishment every 24 to 48 hours. Fine for a weekend; impossible as a primary system for full-time use. Food sits in standing melt water and spoils faster than in a real fridge. The total cost of ice over a year of full-time van life runs $300+ and still produces worse food preservation than a compression fridge.
+
+**Thermoelectric coolers** (Koolatron, Igloo Iceless) use a semiconductor Peltier junction to create a temperature differential. They draw 4-5 amps continuously, only cool 20-25°F below ambient, and cannot freeze. In a hot van they fail entirely — a 90°F cabin means the cooler holds 65-70°F interior, which is refrigerator failure for dairy or protein. Appropriate for weekend trips only. The [Ford Transit Weekend Warrior setup](/setups/ford-transit-weekend-warrior) explains how to make a thermoelectric work as a weekend solution.
+
+**Absorption fridges** (Dometic RM series, Norcold) use ammonia + hydrogen + water + heat to move heat via a chemical process. They are the classic RV fridge, quiet, can run on propane, and tolerate off-grid living. They also require near-perfect leveling (within 3 degrees off-level causes ammonia pooling and damage), use surprising amounts of propane, fail expensively when cooling stops, and are nearly impossible to find in a compact enough size for a van conversion. Appropriate for Class A and Class C RVs, not modern van builds.
+
+**12V compression fridges** use the same technology as your home refrigerator, miniaturized and driven by a DC motor instead of AC. They draw 0.5-2 amps averaged over 24 hours (short duty cycles of 5-8 amps during compressor runs, off most of the time), cool to genuine freezer temperatures, work at any angle, and last 10-15 years. They are the correct answer for essentially every van build.
+
+The [12V fridge buying guide](/guides/12v-fridge-buying-guide) covers the deeper comparison if you want the long version.
+
+## How to size a 12V fridge for your van
+
+Sizing follows three variables: how many people, how long between grocery runs, and whether you need a freezer.
+
+**Liters per person per day:** plan 4-5 liters of fridge volume per person per day between grocery runs. Solo van dweller with a 5-day grocery cadence needs 20-25 liters minimum. Two people on the same cadence need 40-50 liters. Add capacity if you shop weekly (5 days becomes 7, so 28-35L for one, 56-70L for two). Add another 20-30% of capacity if you want to keep fresh vegetables and fruit that take space disproportionate to their nutritional contribution.
+
+**The freezer question:** most van dwellers do not need a dedicated freezer. If you shop every 3-5 days, you don't need to freeze protein for long-term storage. If you want ice for drinks, need frozen vegetables for off-grid weeks, or want to stretch meat storage to 2+ weeks, a dual-zone fridge with a real freezer side is worth the premium. Dual-zone units are almost universally larger (45L+) and more expensive (2-3x single-zone of similar capacity).
+
+**The threshold below which compression fridges don't really exist:** 15 liters. Below that, you're in thermoelectric territory. Above that, compression is the answer.
+
+## Power requirements and battery sizing
+
+A 12V compression fridge's daily draw depends on three things: ambient temperature, insulation quality, and set point. The manufacturer numbers are always quoted at 30°C ambient / 5°C interior, which is a generous baseline — expect real-world draw to be 20-40% higher than datasheet in hot summers.
+
+Realistic daily amp-hour numbers by fridge:
+
+- **15-25L budget fridges (Alpicool C20, Costway 30Qt):** 20-30 Ah/day
+- **35L value fridges (Iceco VL35 ProS, Iceco JP30):** 18-25 Ah/day
+- **45L+ premium (Dometic CFX3 series, Whynter FM-45G):** 18-28 Ah/day (better insulation offsets larger volume)
+- **Dual-zone operation (both compartments active):** add 30-50% over single-zone
+
+**Battery sizing math:** LiFePO4 batteries are safely usable to 80% depth of discharge. A 100 Ah LiFePO4 gives 80 Ah of usable capacity. For the fridge alone, that's 3-4 days of autonomy with zero solar input. For a full kitchen (fridge + induction + lights + water pump), plan 200 Ah LiFePO4 minimum; 300 Ah if you cook exclusively on induction and have limited driving / solar charging.
+
+The [van kitchen power budget guide](/guides/van-kitchen-power-budget) walks through the exact math for a realistic kitchen load.
+
+## Installation and wiring
+
+12V fridges ship with a cigarette lighter plug as a default. Do not use it. The cigarette lighter circuit on most vehicles is fused at 15A and uses 14 AWG wire with significant voltage drop under load, which causes the fridge to throw low-voltage cutoffs and shorten compressor life. Hard-wire the fridge directly to the house battery bank with 10 AWG wire minimum, through a properly rated fuse (10-15A depending on fridge), with an optional inline low-voltage cutoff to protect the starter battery if you're not running a DC-DC isolator.
+
+**Location matters:** the fridge compressor vents heat through the back or one side. Install with at least 2 inches of airflow clearance on the vented side. In a tight cabinet, a small 12V fan on a thermostat can keep compressor temperatures down and extend lifespan by years.
+
+**Slides vs fixed:** a slide-out drawer makes every fridge 3x more usable because you access the top-loading opening without bending over. Front Runner, ARB, and Rhino Rack all make universal slide platforms. Budget $100-$200 for a slide, and don't skip it — the value per dollar is substantial.
+
+## The 8 fridges we've actually tested
+
+**Budget tier (under $300):**
+
+- **[Alpicool C20](/reviews/alpicool-c20-12v-portable-fridge)** — 20L, single-person, the cheapest compression fridge worth buying.
+- **[Costway 30Qt](/reviews/costway-30qt-12v-portable-refrigerator)** — 28L, solid entry into the $260 price tier.
+
+**Value tier ($300-$500):**
+
+- **[Iceco JP30 Pro](/reviews/iceco-jp30-pro-12v-fridge)** — 30L with a real Secop compressor, the best value under $400.
+- **[Iceco VL35 ProS](/reviews/iceco-vl35-prof)** — 35L, the fridge I recommend to every full-timer on a moderate budget. $429 and the best value in the whole category.
+
+**Premium tier ($500-$1,500):**
+
+- **[Whynter FM-45G Dual Zone](/reviews/whynter-fm-45g-dual-zone-fridge)** — 45L dual-zone at $599, the honest-value answer for buyers who want real freezer capacity.
+- **[Whynter FM-62DZ](/reviews/whynter-fm-62dz-dual-zone)** — 62L dual-zone for families, larger volume at similar per-liter pricing.
+- **[Dometic CFX3-35](/reviews/dometic-cfx3-35-powered-cooler)** — 36L single-zone at $899, the premium single-zone benchmark.
+- **[Dometic CFX3-45](/reviews/dometic-cfx3-45-powered-cooler)** — 46L dual-zone at $1,050, the premium dual-zone benchmark with the best insulation in this comparison.
+
+The [Best 12V Fridge by Budget 2026](/guides/best-12v-fridge-by-budget-2026) guide picks a winner at each price tier with the head-to-head math.
+
+## Head-to-head comparisons
+
+For buyers deciding between two specific models:
+
+- **[Dometic CFX3-35 vs Iceco VL35 ProS](/compare/dometic-cfx3-35-vs-iceco-vl35)** — whether the extra $500 is worth it
+- **[Dometic CFX3-35 vs Whynter FM-45G](/compare/dometic-cfx3-35-vs-whynter-fm-45g)** — premium single-zone vs value dual-zone
+- **[Iceco VL35 ProS vs Costway 30Qt](/compare/iceco-vl35-vs-costway-30qt)** — budget vs value reliability math
+
+## Related resources
+
+For the broader van kitchen context that 12V refrigeration fits into:
+
+- **[How to Choose the Right 12V Fridge for Your Van](/guides/12v-fridge-buying-guide)** — the original buying-guide walkthrough
+- **[Van Kitchen Power Budget Guide](/guides/van-kitchen-power-budget)** — exact electrical math
+- **[Best Battery Bank for Van Kitchen](/guides/best-battery-bank-van-kitchen)** — sizing the bank around fridge + cooking load
+- **[Induction vs Butane vs Propane](/guides/induction-vs-butane-vs-propane)** — the cooking fuel decision that pairs with fridge sizing
+
+## The verdict (if you read nothing else)
+
+For 90% of van builds, the correct answer is the **[Iceco VL35 ProS](/reviews/iceco-vl35-prof) paired with a 200 Ah LiFePO4 battery and 300-400W of solar.** That combination handles full-time cooking, full-time fridge operation, and two-day stationary autonomy in real summer heat for about $1,200 total in fridge + electrical system. Upgrade to the Whynter FM-45G or Dometic CFX3-45 if you genuinely need dual-zone freezer capacity. Drop to the Costway 30Qt if your budget is truly capped at $260 and you accept the shorter lifespan.
+
+The single biggest mistake I see in van builds is oversizing the fridge "just in case" and then being power-starved by a 60L unit that draws 40 Ah/day and drains the bank in 2 days. Start with a 30-35L single-zone unless you have a very specific reason to go bigger. Every gram of capacity costs amps.
+
+See the [Minimalist Sprinter setup](/setups/sprinter-144-minimalist) for a real-world example of the Iceco VL35 ProS in a working full-time van kitchen, and the [Off-Grid Chef Promaster setup](/setups/promaster-off-grid-chef) for the dual-zone Whynter FM-45G scaled up for serious cooking volume.

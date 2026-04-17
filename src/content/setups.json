@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "sprinter-144-minimalist",
+    "name": "The Minimalist Sprinter",
+    "vanType": "Sprinter 144",
+    "budget": "$951",
+    "image": "/images/setups/sprinter-144-minimalist.jpg"
+  },
+  {
+    "slug": "promaster-off-grid-chef",
+    "name": "Off-Grid Chef",
+    "vanType": "Promaster 136",
+    "budget": "$2,697",
+    "image": "/images/setups/promaster-off-grid-chef.jpg"
+  },
+  {
+    "slug": "ford-transit-weekend-warrior",
+    "name": "Weekend Warrior",
+    "vanType": "Ford Transit 148",
+    "budget": "$650",
+    "image": "/images/setups/ford-transit-weekend-warrior.jpg"
+  },
+  {
+    "slug": "tacoma-camper-shell-overlander",
+    "name": "The Tacoma Overlander",
+    "vanType": "Toyota Tacoma + Camper Shell",
+    "budget": "$1,450",
+    "image": "/images/setups/tacoma-camper-shell-overlander.jpg"
+  },
+  {
+    "slug": "subaru-outback-micro-kitchen",
+    "name": "Outback Micro Kitchen",
+    "vanType": "Subaru Outback",
+    "budget": "$450",
+    "image": "/images/setups/subaru-outback-micro-kitchen.jpg"
+  },
+  {
+    "slug": "school-bus-family-galley",
+    "name": "School Bus Family Galley",
+    "vanType": "Converted School Bus (Skoolie)",
+    "budget": "$5,200",
+    "image": "/images/setups/school-bus-family-galley.jpg"
+  },
+  {
+    "slug": "minivan-weekend-camper",
+    "name": "Minivan Weekend Camper",
+    "vanType": "Honda Odyssey / Toyota Sienna",
+    "budget": "$750",
+    "image": "/images/setups/minivan-weekend-camper.jpg"
+  }
+]

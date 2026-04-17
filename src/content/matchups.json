@@ -1,0 +1,210 @@
+[
+  {
+    "slug": "dometic-cfx3-35-vs-iceco-vl35",
+    "a": "dometic-cfx3-35-powered-cooler",
+    "b": "iceco-vl35-prof",
+    "winner": "dometic-cfx3-35-powered-cooler",
+    "verdict": "The Dometic CFX3 35 wins on app control, lower noise, and a 3-year warranty — but only if you'll actually use those features. The Iceco VL35 ProS gives you the same Secop compressor and ~90% of the experience for $500 less. Most van dwellers should buy the Iceco.",
+    "intro": "Two single-zone 12V compression fridges with the same Secop BD35F compressor at the heart. One costs $899 and one costs $399. Here's whether the extra $500 is worth it."
+  },
+  {
+    "slug": "dometic-cfx3-35-vs-whynter-fm-45g",
+    "a": "dometic-cfx3-35-powered-cooler",
+    "b": "whynter-fm-45g-dual-zone-fridge",
+    "winner": "whynter-fm-45g-dual-zone-fridge",
+    "verdict": "The Whynter FM-45G wins on capacity and dual-zone capability for $200 less. The Dometic wins on noise, app control, and warranty length. If you want a freezer alongside your fridge — buy the Whynter. If you want the quietest single-zone with the longest warranty — buy the Dometic.",
+    "intro": "Premium single-zone vs mid-tier dual-zone. The Dometic is the gold standard if you only need one cold compartment; the Whynter gives you both fridge and freezer at once for less money."
+  },
+  {
+    "slug": "iceco-vl35-vs-costway-30qt",
+    "a": "iceco-vl35-prof",
+    "b": "costway-30qt-12v-portable-refrigerator",
+    "winner": "iceco-vl35-prof",
+    "verdict": "The Iceco VL35 ProS wins. The Secop BD35F compressor is dramatically more reliable than the Chinese-built compressor in the Costway, and the $200 price difference buys you years of trouble-free operation. Buy the Costway only if your budget is genuinely capped at $200.",
+    "intro": "Both are budget compression fridges, but the compressor brand matters. Here's why $200 more buys an order of magnitude more reliability."
+  },
+  {
+    "slug": "duxtop-9100mc-vs-nuwave-pic-gold",
+    "a": "duxtop-portable-induction-cooktop",
+    "b": "nuwave-pic-gold-induction-cooktop",
+    "winner": "duxtop-portable-induction-cooktop",
+    "verdict": "The Duxtop wins for most van dwellers. 1800W vs 1500W is a real difference in boil times and sear capability, the sealed buttons survive wet hands and rough roads, and it's $35 cheaper. The NUWAVE wins only if you genuinely need precise sub-200°F temperature control for chocolate work or sous vide.",
+    "intro": "The two best portable induction cooktops under $120. One trades raw power for temperature precision; the other prioritizes wattage and rough-road durability."
+  },
+  {
+    "slug": "duxtop-9100mc-vs-coleman-classic-propane",
+    "a": "duxtop-portable-induction-cooktop",
+    "b": "coleman-classic-2-burner-propane-stove",
+    "winner": "coleman-classic-2-burner-propane-stove",
+    "verdict": "Different tools for different vans. If you have a 200Ah+ lithium bank and a 2000W inverter, the Duxtop is the better cooking experience. If you don't, or if you cook in cold weather, the Coleman Classic is the right answer for $20 less and zero electrical infrastructure.",
+    "intro": "Induction vs propane is the most consequential cooktop decision in a van build. Here's the honest comparison without the brand loyalty."
+  },
+  {
+    "slug": "magma-nesting-vs-gsi-pinnacle-camper",
+    "a": "magma-nesting-10-piece-set",
+    "b": "gsi-outdoors-pinnacle-camper-cookset",
+    "winner": "magma-nesting-10-piece-set",
+    "verdict": "The Magma wins for full-time van dwellers because of the induction-compatible stainless construction and lifetime warranty. The GSI Pinnacle Camper wins for weekenders who don't have induction and want the included plates/mugs/bowls for less money.",
+    "intro": "Stainless marine-grade vs hard-anodized aluminum. The right answer depends on your cooktop and your trip length."
+  },
+  {
+    "slug": "stanley-adventure-vs-magma-nesting",
+    "a": "stanley-adventure-base-camp-cookset",
+    "b": "magma-nesting-10-piece-set",
+    "winner": "stanley-adventure-base-camp-cookset",
+    "verdict": "The Stanley Adventure Base Camp wins on value at $60 — and for budget builders or weekenders, it's the right call. The Magma is genuinely better cookware (real stainless, lifetime warranty, induction compatible) but at 3x the price. Buy the Stanley first, upgrade to Magma if you stay in van life past year one.",
+    "intro": "The $60 21-piece set vs the $189 10-piece marine set. Which one earns its place in your galley?"
+  },
+  {
+    "slug": "lifestraw-home-vs-sawyer-squeeze",
+    "a": "lifestraw-home-gravity-pitcher",
+    "b": "sawyer-squeeze-water-filter",
+    "winner": "lifestraw-home-gravity-pitcher",
+    "verdict": "Different tools for different problems. The LifeStraw Home Pitcher is the better daily-use filter for any van with counter space — gravity-fed, easy to use, no squeeze required. The Sawyer Squeeze is the better backup/emergency filter — pocket-size, indestructible, and works on any pouch or bottle. Most van dwellers should own both.",
+    "intro": "Gravity pitcher vs hollow-fiber backpacker filter. Two completely different approaches to clean water."
+  },
+  {
+    "slug": "front-runner-wolf-pack-vs-yeti-loadout-gobox",
+    "a": "front-runner-wolf-pack-pro",
+    "b": "yeti-loadout-gobox-30",
+    "winner": "front-runner-wolf-pack-pro",
+    "verdict": "The Front Runner Wolf Pack Pro wins for most van builds. At $69 vs $200, it's three times cheaper, stacks just as securely, and the gasket seal is more than enough for pantry use. The Yeti GoBox 30 is the right answer only if you're storing gear that genuinely needs IPX-7 waterproofing or industrial-grade impact protection.",
+    "intro": "The overlander standard vs the Yeti premium hard case. Here's whether the $130 price difference is worth it."
+  },
+  {
+    "slug": "iris-weathertight-vs-yeti-loadout-gobox",
+    "a": "iris-weathertight-storage-set",
+    "b": "yeti-loadout-gobox-30",
+    "winner": "iris-weathertight-storage-set",
+    "verdict": "The Iris Weathertight 6-bin set wins on value by a huge margin — six containers for $119 vs one Yeti for $200. For dry-goods pantry storage in a van, the Iris is the obvious choice. The Yeti is overkill unless you specifically need waterproof crash protection.",
+    "intro": "Six gasketed budget bins vs one premium rotomolded box. Which one belongs in your pantry zone?"
+  },
+  {
+    "slug": "aeropress-vs-hario-v60",
+    "a": "aeropress-original-coffee-maker",
+    "b": "hario-v60-02-ceramic-dripper",
+    "winner": "aeropress-original-coffee-maker",
+    "verdict": "The AeroPress wins for van life because it's unbreakable, forgiving of bad technique, and cleans in five seconds. The Hario V60 makes a measurably better cup when you're dialed in, but ceramic shatters on washboard roads, the paper filters need a drawer slot, and the technique is unforgiving when you're making coffee before dawn in a cold van. Pick the V60 for taste ceiling; pick the AeroPress for daily reliability.",
+    "intro": "Plastic plunger vs ceramic dripper. The two most popular pour-over-adjacent methods for van kitchens, and which one survives the actual conditions."
+  },
+  {
+    "slug": "picopresso-vs-bialetti-moka-express",
+    "a": "wacaco-picopresso-portable-espresso",
+    "b": "bialetti-moka-express-6-cup",
+    "winner": "wacaco-picopresso-portable-espresso",
+    "verdict": "The Wacaco Picopresso wins for anyone who wants real 9-bar espresso — it's the only method in this comparison that hits the pressure threshold for actual espresso extraction. The Bialetti Moka wins for traditional Italian-style stovetop brewing, multiple servings at once, and no-electronics simplicity. If you want espresso, buy the Picopresso; if you want moka coffee, buy the Bialetti. They are solving different problems.",
+    "intro": "Manual lever press vs classic Italian stovetop. Both make concentrated coffee in van kitchens, but only one makes actual espresso."
+  },
+  {
+    "slug": "gosun-fusion-vs-solavore-sport",
+    "a": "gosun-fusion-hybrid-solar-oven",
+    "b": "solavore-sport-solar-oven",
+    "winner": "gosun-fusion-hybrid-solar-oven",
+    "verdict": "The GoSun Fusion wins for serious cooks who want solar cooking as a real daily appliance — the 12V electric hybrid mode means cloudy days do not kill dinner, and the vacuum-tube design reaches higher temperatures. The Solavore Sport wins for family cooking (bigger capacity) and simplicity (no electronics). Pick the Fusion for all-weather reliability; pick the Solavore for 4-person meals on sunny days.",
+    "intro": "Hybrid vacuum-tube cooker vs traditional box oven. The two best full-size solar cookers for van life, compared on capacity, reliability, and real-world cooking performance."
+  },
+  {
+    "slug": "victorinox-fibrox-vs-opinel-no-8",
+    "a": "victorinox-fibrox-8-inch-chef-knife",
+    "b": "opinel-no-8-stainless-folding-knife",
+    "winner": "victorinox-fibrox-8-inch-chef-knife",
+    "verdict": "Different tools. The Victorinox Fibrox is a full-size chef's knife — the correct primary galley knife for any van kitchen that does real cooking. The Opinel No. 8 is a pocket-size folding knife — the correct backup and trailhead companion. Most van dwellers should own both for $66 total. If you can only own one, buy the Fibrox; it handles 90% of tasks the Opinel handles plus 100% of the tasks the Opinel cannot.",
+    "intro": "Full-size Swiss chef's knife vs French folding pocket knife. The two knives every van kitchen should seriously consider."
+  },
+  {
+    "slug": "hydro-flask-vs-klean-kanteen",
+    "a": "hydro-flask-32oz-wide-mouth-bottle",
+    "b": "klean-kanteen-tkwide-32oz-insulated",
+    "winner": "hydro-flask-32oz-wide-mouth-bottle",
+    "verdict": "The Hydro Flask wins on insulation (24hr cold vs 24hr), color variety, and brand ecosystem. The Klean Kanteen wins on ethics (B Corp, Climate Neutral) and the interchangeable lid system. Performance is nearly identical — pick the Hydro Flask for the brand, pick the Klean Kanteen for the values.",
+    "intro": "Two premium 32oz insulated bottles at the same price point. One is the market leader, the other is the ethical challenger."
+  },
+  {
+    "slug": "omnia-oven-vs-gas-one-butane",
+    "a": "omnia-stovetop-oven",
+    "b": "gas-one-gs-3000-butane-stove",
+    "winner": "omnia-stovetop-oven",
+    "verdict": "Different tools that work together. The Omnia bakes on top of the Gas One — bread, pizza, casseroles. The Gas One is a cooking surface; the Omnia is an oven. Together they cost $100 and give a van kitchen both stovetop and oven capability. Buy the Gas One first (you need a stove), add the Omnia when you want to bake.",
+    "intro": "Stove-top baking oven vs the butane stove it sits on. Two products that combine into a $100 van bakery."
+  },
+  {
+    "slug": "nutribullet-pro-vs-foodsaver-sealer",
+    "a": "nutribullet-pro-900w-blender",
+    "b": "foodsaver-vs0160-compact-vacuum-sealer",
+    "winner": "foodsaver-vs0160-compact-vacuum-sealer",
+    "verdict": "Both are small appliances that require inverter power. The FoodSaver wins on daily utility — vacuum sealing extends every grocery run and prevents waste all week. The NutriBullet wins on nutrition — smoothies are the fastest way to get fruits and greens into a van diet. If your budget allows one small appliance, the FoodSaver saves more money. If your diet needs help, the NutriBullet adds more nutrition.",
+    "intro": "Compact blender vs compact vacuum sealer. Two $50-$80 small appliances that both need inverter power — which one earns the outlet first?"
+  },
+  {
+    "slug": "yeti-rambler-mug-vs-stanley-tumbler",
+    "a": "yeti-rambler-14oz-mug",
+    "b": "stanley-iceflow-flip-straw-tumbler-30oz",
+    "winner": "stanley-iceflow-flip-straw-tumbler-30oz",
+    "verdict": "The Stanley IceFlow wins for driving hydration — cup holder fit, flip straw for one-handed use, 30oz capacity. The Yeti Rambler wins for morning camp coffee — the handle, the MagSlider, and the 14oz coffee-mug size. Own both: Yeti for camp, Stanley for the road. If you can only buy one, the Stanley covers more use cases.",
+    "intro": "14oz insulated camp mug vs 30oz flip-straw driving tumbler. Both insulated stainless, completely different daily roles."
+  },
+  {
+    "slug": "biolite-campstove-vs-msr-pocketrocket",
+    "a": "biolite-campstove-2-plus",
+    "b": "msr-pocketrocket-2-mini-stove",
+    "winner": "msr-pocketrocket-2-mini-stove",
+    "verdict": "The MSR PocketRocket 2 wins for most van dwellers — 2.6 oz vs 2 lbs, instant ignition, works in any weather. The BioLite wins for off-grid purists who want free fuel and USB charging from fire. Pick the PocketRocket for hybrid van/backpacking. Pick the BioLite for established campsites with firewood.",
+    "intro": "Ultralight canister stove vs wood-burning USB-charging stove. Two radically different philosophies of portable cooking heat."
+  },
+  {
+    "slug": "gosun-go-vs-gosun-sport",
+    "a": "gosun-go-portable-solar-cooker",
+    "b": "gosun-sport-solar-cooker",
+    "winner": "gosun-sport-solar-cooker",
+    "verdict": "The GoSun Sport wins on capacity (2x the Go), cooking versatility, and usefulness as a primary solar cooker. The Go wins on compactness and price — it is the entry-level experiment. If you know you want solar cooking, skip the Go. If you are testing the category, the Go is the cheaper experiment.",
+    "intro": "Compact 1L solar tube vs full-size 2L solar tube. Same tech, different scales — which one earns space in the van?"
+  },
+  {
+    "slug": "nesco-dehydrator-vs-foodsaver",
+    "a": "nesco-fd-75a-snackmaster-pro-dehydrator",
+    "b": "foodsaver-vs0160-compact-vacuum-sealer",
+    "winner": "foodsaver-vs0160-compact-vacuum-sealer",
+    "verdict": "Both are food preservation tools, but the FoodSaver has higher daily utility. Vacuum sealing works every grocery run. Dehydrating is a batch activity. Buy the FoodSaver first, add the Nesco when you want to make your own trail food.",
+    "intro": "Vacuum sealer vs food dehydrator. One for daily meal prep, one for batch trail-food production."
+  },
+  {
+    "slug": "lodge-cast-iron-vs-all-clad-stainless",
+    "a": "lodge-cast-iron-skillet-10-25",
+    "b": "all-clad-d3-stainless-skillet-10",
+    "winner": "lodge-cast-iron-skillet-10-25",
+    "verdict": "The Lodge wins on value ($25 vs $130), searing, durability, and campfire compatibility. The All-Clad wins on heat responsiveness, acidic sauces, weight, and zero-maintenance cleanup. Most van kitchens should own both. If you buy one, buy the Lodge.",
+    "intro": "The $25 American cast iron vs the $130 American tri-ply stainless. The two-pan decision that defines a van kitchen."
+  },
+  {
+    "slug": "duxtop-induction-vs-iwatani-butane",
+    "a": "duxtop-portable-induction-cooktop",
+    "b": "iwatani-za-3hp-butane-stove",
+    "winner": "duxtop-portable-induction-cooktop",
+    "verdict": "The Duxtop wins for full-time builds with electrical systems — instant temperature response, zero indoor CO, precise control. The Iwatani wins for builds without electrical infrastructure and for winter cooking. Most serious van kitchens should own the Duxtop as primary with a butane backup.",
+    "intro": "The best portable induction vs the best butane stove. Two fuel philosophies for van cooking, head to head."
+  },
+  {
+    "slug": "frigidaire-ice-maker-vs-dometic-cfx3-45",
+    "a": "frigidaire-efic189-countertop-ice-maker",
+    "b": "dometic-cfx3-45-powered-cooler",
+    "winner": "dometic-cfx3-45-powered-cooler",
+    "verdict": "The Dometic CFX3-45 is a full-time fridge/freezer that also makes ice slowly. The Frigidaire is a dedicated ice machine needing shore power. For full-time van life, the Dometic covers both jobs. Add the Frigidaire only at shore power when you need ice volume.",
+    "intro": "Dedicated ice maker vs dual-zone fridge with freezer. Two paths to cold drinks in a summer van."
+  },
+  {
+    "slug": "sawyer-squeeze-vs-grayl-geopress",
+    "a": "sawyer-squeeze-water-filter",
+    "b": "grayl-geopress-24oz-purifier",
+    "winner": "grayl-geopress-24oz-purifier",
+    "verdict": "The Grayl GeoPress wins on contaminant coverage — it is the only filter here that removes viruses, heavy metals, and chemicals in addition to bacteria and protozoa. The Sawyer Squeeze wins on cost ($39 vs $100), weight (3 oz vs 16 oz), and unlimited filter life. For US domestic backcountry, the Sawyer is enough. For international travel or questionable sources, the Grayl is essential.",
+    "intro": "The $39 unkillable hollow-fiber backup vs the $100 full-spectrum virus-rated purifier. Two very different water safety tools."
+  },
+  {
+    "slug": "thermapen-one-vs-lodge-chainmail",
+    "a": "thermapen-one-instant-read-thermometer",
+    "b": "lodge-chainmail-cast-iron-scrubber",
+    "winner": "thermapen-one-instant-read-thermometer",
+    "verdict": "Not competitors — both are essential cast iron kitchen accessories at different price points. The Thermapen ($105) ensures food safety with 1-second readings. The Lodge Chainmail ($15) ensures cast iron longevity. Buy both for $120 total and your cast iron kitchen is complete.",
+    "intro": "The $105 pro thermometer vs the $15 cast iron scrubber. Two cast iron essentials that every serious van cook should own."
+  }
+]

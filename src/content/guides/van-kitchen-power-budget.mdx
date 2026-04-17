@@ -1,0 +1,137 @@
+## Why the kitchen decides your whole power system
+
+Your **van kitchen power budget** is the number that determines every other electrical decision in your build. Before you size a battery bank, before you buy solar panels, before you pick an inverter — you need to know exactly how many amp-hours and watt-hours per day your kitchen appliances will consume. Get this number wrong by 30% in either direction and you'll spend the next year either chasing sunlight or paying for capacity you don't need.
+
+This guide walks you through a realistic worked example of sizing a lithium battery and solar array around an actual van kitchen load: fridge, induction cooktop, water pump, lights, and the small daily drains that add up. We'll use the [Power Calculator](/tools/power) at the end so you can plug in your specific appliances and get numbers for your build. The math is simple. The discipline is doing it honestly instead of wishful thinking.
+
+## Start with the fridge — it's the anchor
+
+Refrigeration is the single largest continuous power draw on most van builds, and it's also the one you can't turn off. Every other kitchen load is intermittent: the cooktop runs for 15 minutes, the water pump runs for 30 seconds, the light runs for three hours. The fridge runs 24 hours a day in every condition your rig ever sees.
+
+A well-built 35–50L compression fridge holding 38°F in moderate ambient draws about **0.8 to 1.2 amps average at 12V**. Over 24 hours, that's 19 to 29 Ah per day. Cheap thermoelectric coolers draw four to five times that much and should be avoided — see the [12V fridge buying guide](/guides/12v-fridge-buying-guide) for the full breakdown.
+
+**For this example, we'll assume:** a Dometic CFX3 35 or equivalent, drawing **22 Ah/day average** across a summer travel season. This is a realistic mid-range number for someone running 38°F setpoint in 75°F ambient with the lid opened eight times a day.
+
+## Add the cooktop next — induction is the wild card
+
+An **1800W portable induction cooktop** like the Duxtop 9100MC pulls about 170 amps at 12V when running at full power, after inverter losses. That number sounds terrifying, but cooktops run for minutes, not hours. The realistic daily total is what matters:
+
+- **One person, moderate cooking:** one hot meal plus coffee = 15 to 25 minutes of cooktop time = **40 to 65 Ah/day**
+- **Two people, active cooking:** breakfast plus full dinner with sear and simmer = 35 to 50 minutes = **95 to 140 Ah/day**
+- **Minimal use:** instant coffee plus one pot of rice = 8 to 12 minutes = **20 to 30 Ah/day**
+
+**For this example, we'll assume:** two people cooking normally, averaging **90 Ah/day** for induction. If that number scares you, it should — cooktop load is the reason most van builds should consider keeping a [Gas One butane backup](/reviews/gas-one-gs-3000-butane-stove) for heavy cooking days.
+
+## The small stuff that adds up
+
+Individual small loads feel negligible. Added together, they rival the cooktop on some days.
+
+**Typical daily draws for small kitchen loads:**
+
+- LED overhead lights (3 fixtures, 4 hours evening use): **2 Ah/day**
+- Water pump (shurflo 2.0 gpm, 3 minutes total per day): **0.8 Ah/day**
+- USB charging (phone, headlamp, small devices): **4 Ah/day**
+- 12V ceiling fan (MaxxFan on low, 8 hours overnight): **8 Ah/day**
+- Stereo / Bluetooth speaker: **1 Ah/day**
+- Kettle for tea (electric, 2 minutes on 1800W inverter): **5 Ah/day**
+- Coffee grinder (30 seconds at 150W): **0.1 Ah/day**
+
+**Subtotal for small stuff: ~21 Ah/day.**
+
+These are loads you can't skip. Even a minimal van kitchen has lights, water, and phone charging. Budget for them from the start instead of discovering them when your battery is dead.
+
+## The worked total
+
+Adding it all up for our example van:
+
+| Load | Ah/day |
+|---|---|
+| Fridge (single-zone compression) | 22 |
+| Induction cooktop (two people, normal) | 90 |
+| Small loads (lights, water, USB, fan) | 21 |
+| **Daily kitchen total** | **133 Ah/day** |
+
+If that seems high, it is — but it's honest. A van with a full induction kitchen and real cooking habits is a significant electrical load. The number is higher than many online calculators will show because those calculators assume "coffee and one meal" rather than real daily cooking.
+
+> **Rule of thumb:** if your daily total lands under 60 Ah/day, you're either not cooking much or you're using butane/propane. If it lands over 150 Ah/day, you're either running a Starlink or heating water with resistance loads.
+
+## Sizing the battery bank
+
+With LiFePO4 lithium chemistry, the safe usable capacity is about **80% of nameplate** — you can run them harder but at the cost of cycle life. For a 2-day autonomy buffer:
+
+> **Required battery capacity = (daily total × 2 days) / 0.8**
+>
+> = (133 × 2) / 0.8 = **333 Ah nominal**
+
+Round up to a **300 Ah LiFePO4 bank** (most common sizing). If you want 3 days of autonomy for boondocking in cloudy weather, go to 400 Ah. If you're willing to cut back to butane on low-sun days, 200 Ah works with strict discipline.
+
+**Battery placement matters too.** Lithium doesn't charge below 32°F, so if you boondock in winter, the battery needs to live in the heated cabin or use a self-heating model. A 300 Ah lithium bank that freezes is a 0 Ah bank until it thaws.
+
+## Sizing the solar array
+
+Solar sizing assumes a realistic number of peak-sun hours (not theoretical). In the western US summer, plan for **4 to 5 peak-sun hours per day**. In the PNW in winter, plan for 1.5. An MPPT controller on a mobile roof array typically harvests about **70–80% of rated panel capacity** once you account for angle, heat, shading, and cable losses.
+
+> **Required solar = (daily consumption × 12V) / (peak-sun hours × harvest efficiency)**
+>
+> = (133 × 12) / (4 × 0.75) = **532 W**
+
+Round up to a **600W solar array**. If your roof can fit it, you're done. If it can't, you have three options: reduce cooking load (butane backup), reduce fridge load (accept warmer setpoint), or add alternator charging via a DC-DC charger for driving days.
+
+## Alternator charging as insurance
+
+A **40A DC-DC charger** pulling from the starter battery while driving can contribute 480 Wh (40 Ah at 12V) per hour of drive time. Two hours of driving per day replaces about 80 Ah — more than half the daily kitchen load in our example. For nomads who move frequently, this is often cheaper than adding solar capacity.
+
+For people who boondock statically for days, alternator charging is useless and every kWh has to come from the sun.
+
+## Reducing the total if the math is scary
+
+If your daily kitchen total lands above what your battery/solar budget can support, you have three levers:
+
+1. **Swap induction for butane on heavy cook days.** Running a butane stove three nights a week drops the weekly kitchen total by 30–40% at the cost of a $30 cartridge every few weeks.
+2. **Accept a warmer fridge setpoint.** Running the fridge at 42°F instead of 38°F drops daily draw by about 15%. Food still keeps safely, cycle life goes up.
+3. **Cook one-pot meals.** Our [one-pot meals guide](/guides/one-pot-meals-road) cuts cooking time (and therefore power) by half or more for most dinners.
+
+Most experienced van dwellers use all three. The rig that runs pure induction 100% of the time is rare in practice.
+
+## Winter math is different
+
+Everything above assumes moderate summer conditions. In winter:
+
+- **Solar harvest drops 50–70%** at mid-latitudes due to lower sun angles and shorter days.
+- **Fridge load drops** (~15 Ah/day average) because ambient is cooler.
+- **Heating loads appear** (diesel heater fan, electric blankets, extra lighting for long nights).
+- **Lithium can't charge when cold**, so a self-heating pack or cabin heat source becomes mandatory.
+
+Net effect: your winter kitchen load is lower, but your total daily load is often higher because heating and lighting grow. Budget for both seasons when sizing a system, or accept that you'll shore-power charge more in winter.
+
+## Running your own numbers
+
+The example above is one specific van with specific appliances. Your build will differ. Use the [Power Calculator](/tools/power) on this site to plug in your actual appliances and get a custom number. The math is identical — daily total, times 2 for buffer, divided by 0.8 for lithium depth of discharge, equals your battery. Daily watt-hours divided by peak-sun hours divided by 0.75 efficiency equals your solar.
+
+The discipline is being honest about how much you actually cook. If you plan for "coffee and toast" and end up cooking real dinners, you'll be power-limited all summer and frustrated by the rig you built. If you plan for "full induction kitchen" and actually use butane most nights, you paid for 200 Ah of battery you don't need.
+
+## Final word
+
+A **van kitchen power budget is not complicated math, but it is honest math.** Most new builds underestimate their actual daily consumption by 30–50% because they plan for best-case usage. The fix is adding a 30% safety margin on top of your calculated total — not for physics, but for behavior.
+
+Start with the fridge, add the cooktop realistically, add 20 Ah/day for small stuff, multiply by 2.5 for your battery bank, and divide by 4 peak-sun hours × 0.75 for your solar. That's the formula that builds rigs that don't run out of power.
+
+## FAQ
+
+**How many amp-hours per day does a van kitchen use?**
+A typical van kitchen with a compression fridge, occasional induction cooking, lights, and water pump uses 90–150 Ah/day. Kitchens that rely heavily on induction for cooking can exceed 150 Ah. Kitchens using butane or propane for heat drop to 35–60 Ah.
+
+**What size battery do I need for a van kitchen?**
+Multiply your daily Ah total by 2 (for a 2-day buffer) and divide by 0.8 (for LiFePO4 depth of discharge). A 100 Ah kitchen needs a 250 Ah lithium bank minimum. A 150 Ah kitchen needs 375 Ah.
+
+**Can I run an induction cooktop in a van?**
+Yes, but it requires a 2000W pure sine wave inverter minimum, a lithium battery bank of at least 200 Ah, and honest accounting for the daily power cost. See our [Duxtop induction cooktop review](/reviews/duxtop-portable-induction-cooktop) for real usage numbers.
+
+**How much solar do I need to run a van kitchen?**
+Divide your daily watt-hour total by 4 peak-sun hours times 0.75 harvest efficiency. A kitchen using 1600 Wh/day (about 133 Ah at 12V) needs roughly 530W of solar. Round up to 600W if roof space allows.
+
+**Is butane or induction cheaper to run in a van?**
+Butane costs about $2–3 per hour of high-flame cooking. Induction costs about $0.50 per hour in electricity if you're already paying for solar capacity. On a marginal basis, induction is cheaper. On a total-system basis (accounting for battery and solar costs to support induction), butane often wins for light users.
+
+**Do I need a DC-DC charger for a van kitchen?**
+A DC-DC charger pulling from the alternator while driving is valuable if you move frequently and boondock. For rigs that stay in one place for days, solar and shore power are more useful. Most full-time builds include both.

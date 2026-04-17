@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables (contains secrets like KIE_API_KEY)
+.env*.local
+.env
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Claude Code cache
+.claude/
+
+# Build artifacts and reports
+lighthouse-report.json
+*.log
+npm-debug.log*
+
+# Local scripts with potential secrets
+scripts/*.local.*

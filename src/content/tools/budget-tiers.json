@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "key": "cooktop",
+      "label": "Cooktop",
+      "tiers": {
+        "budget": { "name": "GasOne Butane Stove", "price": 30 },
+        "mid": { "name": "Duxtop 1800W Induction", "price": 75 },
+        "premium": { "name": "Kenyon Silken Induction", "price": 550 }
+      }
+    },
+    {
+      "key": "fridge",
+      "label": "Fridge / Cooler",
+      "tiers": {
+        "budget": { "name": "Iceco VL35 ProS", "price": 399 },
+        "mid": { "name": "Dometic CFX3 35", "price": 899 },
+        "premium": { "name": "National Luna 50L", "price": 1499 }
+      }
+    },
+    {
+      "key": "cookware",
+      "label": "Cookware Set",
+      "tiers": {
+        "budget": { "name": "Stanley Adventure Set", "price": 60 },
+        "mid": { "name": "Magma Nesting 10pc", "price": 189 },
+        "premium": { "name": "Snow Peak Titanium Set", "price": 320 }
+      }
+    },
+    {
+      "key": "water",
+      "label": "Water Filtration",
+      "tiers": {
+        "budget": { "name": "Sawyer Squeeze", "price": 40 },
+        "mid": { "name": "LifeStraw Home Gravity Pitcher", "price": 50 },
+        "premium": { "name": "Acuva Arrow Max UV", "price": 895 }
+      }
+    },
+    {
+      "key": "storage",
+      "label": "Kitchen Storage",
+      "tiers": {
+        "budget": { "name": "IKEA SAMLA Bins", "price": 45 },
+        "mid": { "name": "Iris Weathertight Set", "price": 120 },
+        "premium": { "name": "Front Runner Wolf Pack Pro", "price": 280 }
+      }
+    }
+  ]
+}

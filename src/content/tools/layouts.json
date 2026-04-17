@@ -1,0 +1,52 @@
+{
+  "vans": [
+    {
+      "key": "cargo",
+      "label": "Cargo Van (small)",
+      "subtitle": "Transit Connect, Promaster City, Metris",
+      "zones": [
+        { "name": "Cook", "detail": "Single-burner butane or small induction" },
+        { "name": "Cool", "detail": "12V fridge under 30L" },
+        { "name": "Prep", "detail": "Foldable countertop extension" },
+        { "name": "Store", "detail": "Stackable bins under bench" }
+      ]
+    },
+    {
+      "key": "sprinter",
+      "label": "Sprinter / Transit 148",
+      "subtitle": "Full-size cargo van",
+      "zones": [
+        { "name": "Cook", "detail": "2-burner induction + overhead vent" },
+        { "name": "Cool", "detail": "35\u201350L compressor fridge" },
+        { "name": "Prep", "detail": "24\" countertop with sink" },
+        { "name": "Wash", "detail": "12V water pump + gravity drain" },
+        { "name": "Store", "detail": "Dedicated pantry + spice rack" }
+      ]
+    },
+    {
+      "key": "skoolie",
+      "label": "Skoolie / Shuttle",
+      "subtitle": "Short bus to full conversion",
+      "zones": [
+        { "name": "Cook", "detail": "Full propane range or induction duo" },
+        { "name": "Cool", "detail": "65L+ dual-zone fridge/freezer" },
+        { "name": "Prep", "detail": "36\" countertop with cutting boards" },
+        { "name": "Wash", "detail": "Deep sink + hot water heater" },
+        { "name": "Store", "detail": "Full-height pantry" },
+        { "name": "Dine", "detail": "Dinette or island seating" }
+      ]
+    },
+    {
+      "key": "rv",
+      "label": "Class B / Class C RV",
+      "subtitle": "Factory rig with existing kitchen",
+      "zones": [
+        { "name": "Cook", "detail": "Upgrade factory cooktop to induction" },
+        { "name": "Cool", "detail": "Replace absorption fridge with 12V compressor" },
+        { "name": "Prep", "detail": "Swap countertop, add magnetic knife rack" },
+        { "name": "Wash", "detail": "Keep existing sink + upgrade faucet" },
+        { "name": "Store", "detail": "Retrofit drawer organizers" }
+      ]
+    }
+  ]
+}

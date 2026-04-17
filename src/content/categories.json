@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "cooktops",
+    "name": "Cooktops",
+    "icon": "Flame",
+    "image": "/images/categories/cooktops.jpg"
+  },
+  {
+    "slug": "fridges",
+    "name": "12V Fridges",
+    "icon": "Refrigerator",
+    "image": "/images/categories/fridges.jpg"
+  },
+  {
+    "slug": "cookware",
+    "name": "Compact Cookware",
+    "icon": "UtensilsCrossed",
+    "image": "/images/categories/cookware.jpg"
+  },
+  {
+    "slug": "water",
+    "name": "Water Filters",
+    "icon": "Droplets",
+    "image": "/images/categories/water.jpg"
+  },
+  {
+    "slug": "storage",
+    "name": "Kitchen Storage",
+    "icon": "Package",
+    "image": "/images/categories/storage.jpg"
+  },
+  {
+    "slug": "solar",
+    "name": "Solar Cooking",
+    "icon": "Sun",
+    "image": "/images/categories/solar.jpg"
+  },
+  {
+    "slug": "coffee",
+    "name": "Coffee Gear",
+    "icon": "Coffee",
+    "image": "/images/categories/coffee.jpg"
+  },
+  {
+    "slug": "knives",
+    "name": "Knives & Prep",
+    "icon": "ChefHat",
+    "image": "/images/categories/knives.jpg"
+  },
+  {
+    "slug": "appliances",
+    "name": "Small Appliances",
+    "icon": "Zap",
+    "image": "/images/categories/appliances.jpg"
+  },
+  {
+    "slug": "drinkware",
+    "name": "Drinkware",
+    "icon": "GlassWater",
+    "image": "/images/categories/drinkware.jpg"
+  }
+]
