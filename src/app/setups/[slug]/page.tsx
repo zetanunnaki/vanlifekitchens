@@ -6,6 +6,7 @@ import { setups, products } from "@/lib/data";
 import { breadcrumbJsonLd, setupCrumbs } from "@/lib/breadcrumbs";
 import { ProductCard } from "@/components/ProductCard";
 import { SocialShare } from "@/components/SocialShare";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 export function generateStaticParams() {
   return setups.map((s) => ({ slug: s.slug }));
@@ -85,6 +86,7 @@ export default async function SetupDetailPage({ params }: { params: { slug: stri
 
   return (
     <article className="pt-32 pb-24 bg-earth-50">
+      <ReadingProgress />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}

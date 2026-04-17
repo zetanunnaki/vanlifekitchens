@@ -4,8 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Flame, Menu, Search, X } from "lucide-react";
+import { Flame, Heart, Menu, Search, X } from "lucide-react";
 import { SearchDialog } from "./SearchDialog";
+import { WishlistCount } from "./WishlistCount";
 
 const nav = [
   { href: "/reviews", label: "Reviews" },
@@ -98,7 +99,7 @@ export function Header() {
           })}
         </div>
 
-        <div className="hidden lg:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-2">
           <button
             aria-label="Search"
             onClick={() => setSearchOpen(true)}
@@ -118,6 +119,9 @@ export function Header() {
               ⌘K
             </kbd>
           </button>
+          <div className={useDarkText ? "" : "text-white"}>
+            <WishlistCount />
+          </div>
         </div>
 
         <button

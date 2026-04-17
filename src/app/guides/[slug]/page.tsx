@@ -7,6 +7,7 @@ import { breadcrumbJsonLd, guideCrumbs } from "@/lib/breadcrumbs";
 import { guideFaqSchema } from "@/lib/faq-schema";
 import { editors } from "@/lib/editors";
 import { SocialShare } from "@/components/SocialShare";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 const guideAuthorByCategory: Record<string, keyof typeof editors> = {
   "Buying Guides": "maya",
@@ -100,6 +101,7 @@ export default async function GuidePage({ params }: { params: { slug: string } }
 
   return (
     <article className="pt-32 pb-24 bg-white">
+      <ReadingProgress />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

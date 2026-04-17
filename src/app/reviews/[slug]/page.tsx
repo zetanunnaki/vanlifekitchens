@@ -11,6 +11,9 @@ import { ProductCard } from "@/components/ProductCard";
 import { SocialShare } from "@/components/SocialShare";
 import { StickyBuyBar } from "@/components/StickyBuyBar";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
+import { WishlistButton } from "@/components/WishlistButton";
+import { CopyVerdict } from "@/components/CopyVerdict";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -129,6 +132,7 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
 
   return (
     <article className="pt-32 pb-32 lg:pb-24 bg-earth-50">
+      <ReadingProgress />
       <StickyBuyBar product={product} />
       <script
         type="application/ld+json"
@@ -205,8 +209,17 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
               {Body ? <Body /> : <p className="text-earth-500">Full review coming soon.</p>}
             </article>
 
-            {/* Social share */}
-            <div className="mt-12 pt-8 border-t border-earth-200">
+            {/* Save + TL;DR + Share action row */}
+            <div className="mt-12 pt-8 border-t border-earth-200 space-y-6">
+              <div className="flex flex-wrap gap-3 items-center">
+                <WishlistButton slug={product.slug} variant="prominent" />
+                <CopyVerdict
+                  verdict={product.verdict}
+                  productName={product.name}
+                  url={pageUrl}
+                  score={product.score}
+                />
+              </div>
               <SocialShare
                 slug={`/reviews/${product.slug}`}
                 title={`${product.name} Review`}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Star } from "lucide-react";
 import type { Product } from "@/lib/data";
+import { WishlistButton } from "./WishlistButton";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
@@ -42,6 +43,11 @@ export function ProductCard({ product }: { product: Product }) {
               {product.tag}
             </span>
           )}
+
+          {/* Wishlist heart (bottom-left) */}
+          <div className="absolute bottom-5 left-5 z-10">
+            <WishlistButton slug={product.slug} variant="icon" />
+          </div>
 
           {/* Bottom gradient + quick action */}
           <div className="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-earth-950/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
