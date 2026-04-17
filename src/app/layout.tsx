@@ -153,8 +153,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${jetbrains.variable} ${fraunces.variable}`}>
       <head>
         <link rel="preload" href="/images/hero/home.jpg" as="image" type="image/jpeg" />
-        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
-        <meta httpEquiv="X-Frame-Options" content="DENY" />
+
+
         <meta name="referrer" content="strict-origin-when-cross-origin" />
         <script
           type="application/ld+json"
