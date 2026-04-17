@@ -3,6 +3,7 @@ import { Inter, Outfit, JetBrains_Mono, Fraunces } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { MotionProvider } from "@/components/MotionProvider";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit", display: "swap" });
@@ -151,6 +152,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${jetbrains.variable} ${fraunces.variable}`}>
       <head>
+        <link rel="preload" href="/images/hero/home.jpg" as="image" type="image/jpeg" />
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
         <meta httpEquiv="X-Frame-Options" content="DENY" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -170,9 +172,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           Skip to main content
         </a>
-        <Header />
-        <main id="main-content">{children}</main>
-        <Footer />
+        <MotionProvider>
+          <Header />
+          <main id="main-content">{children}</main>
+          <Footer />
+        </MotionProvider>
       </body>
     </html>
   );

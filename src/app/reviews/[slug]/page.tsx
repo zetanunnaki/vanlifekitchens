@@ -232,7 +232,7 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
             {/* Compare CTA */}
             <div className="mt-20 p-10 bg-earth-950 text-white rounded-4xl grain relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="max-w-md relative z-10">
-                <div className="eyebrow mb-3">Deciding?</div>
+                <div className="eyebrow mb-3 text-accent-orange">Deciding?</div>
                 <h3 className="font-display font-bold text-2xl md:text-3xl leading-tight mb-2 text-balance">
                   Compare with similar <span className="font-serif italic text-accent-orange-soft">products</span>
                 </h3>

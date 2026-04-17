@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ArrowDown, ArrowRight } from "lucide-react";
 import { products, guides } from "@/lib/data";
 
@@ -23,6 +23,7 @@ export function Hero() {
           alt="Van life kitchen at golden hour"
           fill
           priority
+          fetchPriority="high"
           sizes="100vw"
           className="object-cover scale-105"
         />
@@ -35,7 +36,7 @@ export function Hero() {
       <div className="relative z-10 container-page w-full pt-32 pb-24">
         <div className="max-w-5xl">
           {/* Eyebrow */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
@@ -45,10 +46,10 @@ export function Hero() {
               <span className="block w-8 h-px bg-accent-orange" />
               The Nomad&apos;s Culinary Field Guide
             </span>
-          </motion.div>
+          </m.div>
 
           {/* Headline */}
-          <motion.h1
+          <m.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
@@ -75,10 +76,10 @@ export function Hero() {
                 </svg>
               </span>
             </span>
-          </motion.h1>
+          </m.h1>
 
           {/* Subheadline */}
-          <motion.p
+          <m.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -87,10 +88,10 @@ export function Hero() {
             Independent reviews and long-form field guides for the best van life kitchen gear.
             Tested on dirt roads and desert washes — not in a lab, not by people who&apos;ve never lived in
             eighty square feet.
-          </motion.p>
+          </m.p>
 
           {/* CTAs */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.55 }}
@@ -103,10 +104,10 @@ export function Hero() {
             <Link href="/guides" className="btn-ghost">
               Read the Guides
             </Link>
-          </motion.div>
+          </m.div>
 
           {/* Stats bar */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
@@ -122,25 +123,25 @@ export function Hero() {
                 </div>
               </div>
             ))}
-          </motion.div>
+          </m.div>
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
+      <m.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 1 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 text-white/60"
       >
         <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Scroll</span>
-        <motion.div
+        <m.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
           <ArrowDown className="w-4 h-4" />
-        </motion.div>
-      </motion.div>
+        </m.div>
+      </m.div>
     </section>
   );
 }

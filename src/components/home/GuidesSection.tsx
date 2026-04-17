@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { guides } from "@/lib/data";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -27,7 +27,7 @@ export function GuidesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           {featured.map((g, idx) => (
-            <motion.article
+            <m.article
               key={g.slug}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -41,6 +41,7 @@ export function GuidesSection() {
                     src={g.image}
                     alt={g.title}
                     fill
+                    loading="lazy"
                     sizes="(max-width: 1024px) 100vw, 33vw"
                     className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-110"
                   />
@@ -62,7 +63,7 @@ export function GuidesSection() {
                   <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </span>
               </Link>
-            </motion.article>
+            </m.article>
           ))}
         </div>
       </div>

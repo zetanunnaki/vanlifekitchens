@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 export function HubHero({
   image,
@@ -50,7 +50,7 @@ export function HubHero({
 
       {/* Content */}
       <div className="relative z-10 container-page w-full pt-32 pb-20">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
@@ -69,7 +69,7 @@ export function HubHero({
           <p className="text-white/80 text-lg md:text-xl leading-relaxed max-w-2xl text-pretty">
             {subtitle}
           </p>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

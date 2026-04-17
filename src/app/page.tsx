@@ -81,7 +81,7 @@ export default function HomePage() {
             <div className="max-w-3xl">
               <div className="flex items-center gap-4 mb-5">
                 <span className="section-number text-earth-400">— 04</span>
-                <span className="eyebrow">Inside Real Builds</span>
+                <span className="eyebrow text-accent-orange">Inside Real Builds</span>
               </div>
               <h2 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-balance">
                 Three van kitchens, <span className="font-serif italic text-accent-orange-soft">three philosophies</span>
@@ -113,6 +113,7 @@ export default function HomePage() {
                   src={s.image}
                   alt={s.name}
                   fill
+                  loading="lazy"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-110"
                 />

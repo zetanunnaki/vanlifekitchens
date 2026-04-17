@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { Flame, Heart, Menu, Search, X } from "lucide-react";
 import { SearchDialog } from "./SearchDialog";
 import { WishlistCount } from "./WishlistCount";
@@ -89,7 +89,7 @@ export function Header() {
               >
                 {n.label}
                 {active && (
-                  <motion.span
+                  <m.span
                     layoutId="nav-underline"
                     className="absolute inset-x-4 -bottom-0.5 h-px bg-accent-orange"
                   />
@@ -139,7 +139,7 @@ export function Header() {
 
       <AnimatePresence>
         {open && (
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -167,7 +167,7 @@ export function Header() {
                 Search
               </button>
             </div>
-          </motion.div>
+          </m.div>
         )}
       </AnimatePresence>
 

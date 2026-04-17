@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ArrowUpRight, ChefHat, Coffee, Droplets, Flame, Package, Refrigerator, Sun, UtensilsCrossed } from "lucide-react";
 import type { ComponentType } from "react";
 import { categories, products } from "@/lib/data";
@@ -53,7 +53,7 @@ export function CategoriesGrid() {
         {/* Asymmetric grid: 1 featured large + 5 smaller */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-5">
           {/* Featured category — spans 2 cols, 2 rows */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
@@ -68,6 +68,7 @@ export function CategoriesGrid() {
                 src={featured.image}
                 alt={featured.name}
                 fill
+                loading="lazy"
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-[1200ms] ease-out"
               />
@@ -93,14 +94,14 @@ export function CategoriesGrid() {
                 </span>
               </div>
             </Link>
-          </motion.div>
+          </m.div>
 
           {/* Smaller categories */}
           {rest.map((cat, idx) => {
             const Icon2 = iconMap[cat.icon] ?? Flame;
             const count = counts.get(cat.slug) ?? 0;
             return (
-              <motion.div
+              <m.div
                 key={cat.slug}
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -115,6 +116,7 @@ export function CategoriesGrid() {
                     src={cat.image}
                     alt={cat.name}
                     fill
+                    loading="lazy"
                     sizes="(max-width: 1024px) 50vw, 20vw"
                     className="object-cover group-hover:scale-110 transition-transform duration-[1200ms] ease-out"
                   />
@@ -131,7 +133,7 @@ export function CategoriesGrid() {
                     </h3>
                   </div>
                 </Link>
-              </motion.div>
+              </m.div>
             );
           })}
         </div>

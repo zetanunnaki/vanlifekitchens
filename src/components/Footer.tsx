@@ -150,9 +150,9 @@ export function Footer() {
 
           {/* Shop */}
           <div>
-            <h4 className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange-soft mb-6">
+            <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange-soft mb-6">
               Shop by Category
-            </h4>
+            </div>
             <ul className="space-y-3">
               {shop.map((item) => (
                 <li key={item.label}>
@@ -169,9 +169,9 @@ export function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange-soft mb-6">
+            <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange-soft mb-6">
               Explore
-            </h4>
+            </div>
             <ul className="space-y-3">
               {resources.map((item) => (
                 <li key={item.label}>
@@ -188,9 +188,9 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange-soft mb-6">
+            <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange-soft mb-6">
               Company
-            </h4>
+            </div>
             <ul className="space-y-3">
               {company.map((item) => (
                 <li key={item.label}>

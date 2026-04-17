@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 export function SectionHeading({
   number,
@@ -17,7 +17,7 @@ export function SectionHeading({
 }) {
   const alignClass = align === "center" ? "text-center max-w-3xl mx-auto" : "max-w-3xl";
   return (
-    <motion.div
+    <m.div
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
@@ -44,6 +44,6 @@ export function SectionHeading({
           {subtitle}
         </p>
       )}
-    </motion.div>
+    </m.div>
   );
 }

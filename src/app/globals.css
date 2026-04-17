@@ -82,16 +82,16 @@
 
   /* Editorial eyebrow pill */
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.24em] text-accent-orange;
+    @apply inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.24em] text-accent-orange-deep;
   }
   .eyebrow::before {
     content: "";
-    @apply block w-6 h-px bg-accent-orange;
+    @apply block w-6 h-px bg-accent-orange-deep;
   }
 
   /* Section number */
   .section-number {
-    @apply font-serif text-sm italic text-earth-400 tabular-nums;
+    @apply font-serif text-sm italic text-earth-700 tabular-nums;
   }
 
   /* Buttons */
@@ -112,7 +112,7 @@
     @apply btn bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-full hover:bg-white/20 text-sm tracking-wide;
   }
   .btn-link {
-    @apply inline-flex items-center gap-2 font-semibold text-accent-orange hover:text-accent-orange-deep transition-colors;
+    @apply inline-flex items-center gap-2 font-semibold text-accent-orange-deep hover:text-accent-orange transition-colors;
   }
 
   /* Drop cap for editorial reviews */

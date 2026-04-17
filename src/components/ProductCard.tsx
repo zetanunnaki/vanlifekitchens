@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ArrowUpRight, Star } from "lucide-react";
 import type { Product } from "@/lib/data";
 import { WishlistButton } from "./WishlistButton";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
-    <motion.article
+    <m.article
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
@@ -23,6 +23,7 @@ export function ProductCard({ product }: { product: Product }) {
             src={product.image}
             alt={product.name}
             fill
+            loading="lazy"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-110"
           />
@@ -96,6 +97,6 @@ export function ProductCard({ product }: { product: Product }) {
           </span>
         </div>
       </Link>
-    </motion.article>
+    </m.article>
   );
 }
