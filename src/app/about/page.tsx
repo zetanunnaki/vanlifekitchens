@@ -3,9 +3,24 @@ import Image from "next/image";
 import { editorList } from "@/lib/editors";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About VanLifeKitchens",
   description:
-    "VanLifeKitchen.com is run by a small team of three full-time van dwellers who personally test every product reviewed on this site. Meet the editors and read our methodology.",
+    "VanLifeKitchens.com is run by three full-time van dwellers who test every product on the road. Meet the editors and our methodology.",
+  openGraph: {
+    title: "About VanLifeKitchens",
+    description:
+      "VanLifeKitchens.com is run by three full-time van dwellers who test every product on the road. Meet the editors and our methodology.",
+    type: "website",
+    images: [{ url: "/images/about/cooking.jpg", width: 1920, height: 1080, alt: "Cooking in a van kitchen at golden hour" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "About VanLifeKitchens",
+    description:
+      "VanLifeKitchens.com is run by three full-time van dwellers who test every product on the road. Meet the editors and our methodology.",
+  },
   alternates: { canonical: "/about" },
 };
 
@@ -18,7 +33,7 @@ export default function AboutPage() {
           Curated by nomads, <span className="font-serif italic text-accent-orange">for nomads.</span>
         </h1>
         <p className="text-earth-600 text-lg leading-relaxed mb-10 text-pretty">
-          VanLifeKitchen was started by three frustrated van dwellers who got tired of gear
+          VanLifeKitchens was started by three frustrated van dwellers who got tired of gear
           recommendations written by people who&apos;d never lived in 80 square feet. Every product
           on this site has been tested on the road — not in a lab, not by an affiliate farm.
         </p>

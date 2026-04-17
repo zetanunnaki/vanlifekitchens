@@ -16,7 +16,7 @@ export function CopyVerdict({
 }) {
   const [copied, setCopied] = useState(false);
 
-  const block = `**${productName}** — ${score ? `${score}/10` : "VanLifeKitchen review"}
+  const block = `**${productName}** — ${score ? `${score}/10` : "VanLifeKitchens review"}
 
 "${verdict}"
 

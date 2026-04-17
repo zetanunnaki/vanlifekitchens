@@ -3,7 +3,22 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "VanLifeKitchen.com privacy policy: what we collect, how we use it, third-party cookies from affiliate programs, and your rights.",
+    "VanLifeKitchens.com privacy policy: what we collect, how we use it, third-party cookies from affiliate programs, and your rights.",
+  openGraph: {
+    title: "Privacy Policy — VanLifeKitchens",
+    description:
+      "VanLifeKitchens.com privacy policy: what we collect, how we use it, third-party cookies from affiliate programs, and your rights.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "VanLifeKitchens privacy policy" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Privacy Policy — VanLifeKitchens",
+    description:
+      "VanLifeKitchens.com privacy policy: what we collect, how we use it, third-party cookies from affiliate programs, and your rights.",
+  },
   alternates: { canonical: "/privacy" },
 };
 
@@ -22,7 +37,7 @@ export default function PrivacyPage() {
 
         <div className="prose-editorial space-y-6">
           <p className="text-lg leading-[1.85] text-earth-800">
-            VanLifeKitchen.com (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) respects
+            VanLifeKitchens.com (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) respects
             your privacy. This page explains what information we collect, how we use it, what
             third parties have access to it, and your rights as a visitor.
           </p>
@@ -146,7 +161,7 @@ export default function PrivacyPage() {
           </h2>
 
           <p className="text-lg leading-[1.85] text-earth-800">
-            VanLifeKitchen.com is not directed at children under 13. We do not knowingly
+            VanLifeKitchens.com is not directed at children under 13. We do not knowingly
             collect personally identifiable information from children under 13. If you believe
             we have collected such information, please contact us so we can delete it.
           </p>

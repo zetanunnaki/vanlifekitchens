@@ -2,7 +2,29 @@ import Link from "next/link";
 import { Calculator, LayoutGrid, Zap, ArrowRight } from "lucide-react";
 import { HubHero } from "@/components/HubHero";
 
-export const metadata = { title: "Tools" };
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Van Kitchen Planning Tools",
+  description:
+    "Free calculators and planners to budget, lay out, and size the power system for your van kitchen build.",
+  openGraph: {
+    title: "Van Kitchen Planning Tools",
+    description:
+      "Free calculators and planners to budget, lay out, and size the power system for your van kitchen build.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "Van kitchen planning tools" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Van Kitchen Planning Tools",
+    description:
+      "Free calculators and planners to budget, lay out, and size the power system for your van kitchen build.",
+  },
+  alternates: { canonical: "/tools" },
+};
 
 const tools = [
   {

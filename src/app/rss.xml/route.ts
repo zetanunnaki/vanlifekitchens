@@ -49,7 +49,7 @@ export async function GET() {
       pubDate: rfc822(g.updated ?? "2026-04-15"),
       category: g.category,
       guid: `${SITE}/guides/${g.slug}`,
-      author: "editor@vanlifekitchens.com (VanLifeKitchen Editorial Team)",
+      author: "editor@vanlifekitchens.com (VanLifeKitchens Editorial Team)",
     });
   }
 
@@ -61,7 +61,7 @@ export async function GET() {
       pubDate: rfc822("2026-04-15"),
       category: "Setups",
       guid: `${SITE}/setups/${s.slug}`,
-      author: "editor@vanlifekitchens.com (VanLifeKitchen Editorial Team)",
+      author: "editor@vanlifekitchens.com (VanLifeKitchens Editorial Team)",
     });
   }
 
@@ -73,7 +73,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>VanLifeKitchen</title>
+    <title>VanLifeKitchens</title>
     <link>${SITE}</link>
     <description>Independent reviews and field guides for van life kitchen gear. Tested on the road, written by nomads.</description>
     <language>en-US</language>
@@ -81,7 +81,7 @@ export async function GET() {
     <atom:link href="${SITE}/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>${SITE}/images/hero/og-default.jpg</url>
-      <title>VanLifeKitchen</title>
+      <title>VanLifeKitchens</title>
       <link>${SITE}</link>
     </image>
 ${items

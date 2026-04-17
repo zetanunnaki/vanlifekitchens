@@ -103,7 +103,7 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
       },
       publisher: {
         "@type": "Organization",
-        name: "VanLifeKitchen",
+        name: "VanLifeKitchens",
         url: "https://vanlifekitchens.com",
       },
       datePublished: product.updated,
@@ -177,7 +177,7 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
             <div className="relative aspect-[4/3] rounded-4xl overflow-hidden mb-8 shadow-soft-2xl">
               <Image
                 src={product.image}
-                alt={`${product.name} — ${product.category.toLowerCase()} reviewed by VanLifeKitchen`}
+                alt={`${product.name} — ${product.category.toLowerCase()} reviewed by VanLifeKitchens`}
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 66vw"

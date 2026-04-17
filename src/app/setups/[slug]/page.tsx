@@ -71,12 +71,12 @@ export default async function SetupDetailPage({ params }: { params: { slug: stri
     dateModified: today,
     author: {
       "@type": "Organization",
-      name: "VanLifeKitchen Editorial Team",
+      name: "VanLifeKitchens Editorial Team",
       url: "https://vanlifekitchens.com/about",
     },
     publisher: {
       "@type": "Organization",
-      name: "VanLifeKitchen",
+      name: "VanLifeKitchens",
       url: "https://vanlifekitchens.com",
       logo: {
         "@type": "ImageObject",

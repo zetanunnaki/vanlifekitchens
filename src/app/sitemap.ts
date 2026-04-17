@@ -56,6 +56,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const authorSlugs = ["maya", "theo", "cassidy"];
+  const authorRoutes: MetadataRoute.Sitemap = authorSlugs.map((slug) => ({
+    url: `${BASE_URL}/authors/${slug}`,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
   return [
     ...staticRoutes,
     ...reviewRoutes,
@@ -63,5 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...setupRoutes,
     ...categoryRoutes,
     ...compareRoutes,
+    ...authorRoutes,
   ];
 }

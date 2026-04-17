@@ -212,7 +212,7 @@ export function Footer() {
             <strong className="text-white/80 font-semibold uppercase tracking-wider text-[10px] mr-2">
               Disclosure:
             </strong>
-            VanLifeKitchen.com is reader-supported. When you buy through links on our site, we may
+            VanLifeKitchens.com is reader-supported. When you buy through links on our site, we may
             earn an affiliate commission at no extra cost to you. As an Amazon Associate we earn
             from qualifying purchases. Our editorial opinions are independent and not influenced
             by these commissions.{" "}
@@ -229,7 +229,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/40 text-xs">
-            © 2026 VanLifeKitchen.com — All rights reserved
+            © 2026 VanLifeKitchens.com — All rights reserved
           </p>
           <p className="text-white/40 text-xs text-center md:text-right">
             Curated by nomads, for nomads
@@ -242,7 +242,7 @@ export function Footer() {
         aria-hidden
         className="absolute -bottom-20 left-1/2 -translate-x-1/2 font-serif italic text-[20vw] leading-none text-white/[0.025] whitespace-nowrap select-none pointer-events-none"
       >
-        VanLifeKitchen
+        VanLifeKitchens
       </div>
     </footer>
   );

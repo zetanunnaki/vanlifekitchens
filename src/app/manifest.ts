@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "VanLifeKitchen — Cook Anywhere. Live Everywhere.",
-    short_name: "VanLifeKitchen",
+    name: "VanLifeKitchens — Cook Anywhere. Live Everywhere.",
+    short_name: "VanLifeKitchens",
     description:
       "Independent reviews and field guides for van life kitchen gear. Tested on the road, written by nomads.",
     start_url: "/",
@@ -64,7 +64,7 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/jpeg",
         // @ts-expect-error — valid PWA field, not yet in Next.js types
         form_factor: "wide",
-        label: "VanLifeKitchen homepage at golden hour",
+        label: "VanLifeKitchens homepage at golden hour",
       },
     ],
     shortcuts: [

@@ -4,8 +4,23 @@ import { WishlistClient } from "./WishlistClient";
 export const metadata: Metadata = {
   title: "Your Wishlist",
   description:
-    "Products you've saved from VanLifeKitchen reviews. Your wishlist is stored privately in your browser — no account, no tracking.",
+    "Products you've saved from VanLifeKitchens reviews. Your wishlist is stored privately in your browser — no account, no tracking.",
   robots: { index: false, follow: true },
+  openGraph: {
+    title: "Your Wishlist — VanLifeKitchens",
+    description:
+      "Products you've saved from VanLifeKitchens reviews. Stored privately in your browser — no account needed.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "VanLifeKitchens wishlist" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Your Wishlist — VanLifeKitchens",
+    description:
+      "Products you've saved from VanLifeKitchens reviews. Stored privately in your browser — no account needed.",
+  },
   alternates: { canonical: "/wishlist" },
 };
 

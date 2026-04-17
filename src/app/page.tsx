@@ -143,7 +143,7 @@ export default function HomePage() {
             <span className="eyebrow">Editor&apos;s Note</span>
           </div>
           <p className="font-serif italic text-2xl md:text-3xl leading-snug text-earth-700 mb-10 text-balance">
-            &ldquo;We started VanLifeKitchen because every review we read was written by someone
+            &ldquo;We started VanLifeKitchens because every review we read was written by someone
             who&apos;d never had to cook breakfast next to a composting toilet. If we wouldn&apos;t
             put it in our own van, we don&apos;t recommend it. That&apos;s the whole editorial
             policy.&rdquo;

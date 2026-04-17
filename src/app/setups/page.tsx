@@ -4,11 +4,46 @@ import { ArrowRight } from "lucide-react";
 import { HubHero } from "@/components/HubHero";
 import { setups } from "@/lib/data";
 
-export const metadata = { title: "Real Van Kitchen Setups" };
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Real Van Kitchen Setups",
+  description:
+    "Step inside real van kitchen builds from the road. Every product, every cost, every lesson learned from actual van dwellers.",
+  openGraph: {
+    title: "Real Van Kitchen Setups",
+    description:
+      "Step inside real van kitchen builds from the road. Every product, every cost, every lesson learned from actual van dwellers.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "Real van kitchen setups" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Real Van Kitchen Setups",
+    description:
+      "Step inside real van kitchen builds from the road. Every product, every cost, every lesson learned from actual van dwellers.",
+  },
+  alternates: { canonical: "/setups" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Real Van Kitchen Setups",
+  "description":
+    "Step inside real builds from the road. Every product, every cost, every lesson learned.",
+  "url": "https://vanlifekitchens.com/setups",
+};
 
 export default function SetupsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <HubHero
         image="/images/hero/setups.jpg"
         alt="Three camper vans parked at golden hour"

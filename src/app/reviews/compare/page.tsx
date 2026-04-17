@@ -6,12 +6,41 @@ export const metadata: Metadata = {
   title: "Compare Van Life Kitchen Gear",
   description:
     "Side-by-side comparison of van life kitchen gear — specs, prices, scores, pros and cons. Pick up to 4 products to compare.",
+  openGraph: {
+    title: "Compare Van Life Kitchen Gear",
+    description:
+      "Side-by-side comparison of van life kitchen gear — specs, prices, scores, pros and cons. Pick up to 4 products.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "Compare van life kitchen gear" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Compare Van Life Kitchen Gear",
+    description:
+      "Side-by-side comparison of van life kitchen gear — specs, prices, scores, pros and cons. Pick up to 4 products.",
+  },
   alternates: { canonical: "/reviews/compare" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Compare Van Life Kitchen Gear",
+  "description":
+    "Side-by-side comparison of van life kitchen gear — specs, prices, scores, pros and cons. Pick up to 4 products to compare.",
+  "url": "https://vanlifekitchens.com/reviews/compare",
 };
 
 export default function ComparePage() {
   return (
-    <section className="pt-32 pb-24 bg-earth-50 min-h-screen">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <section className="pt-32 pb-24 bg-earth-50 min-h-screen">
       <div className="container-page">
         <div className="text-center mb-12">
           <span className="inline-block text-[10px] font-bold uppercase tracking-[0.2em] text-accent-orange mb-4">
@@ -28,5 +57,6 @@ export default function ComparePage() {
         <CompareClient products={products} />
       </div>
     </section>
+    </>
   );
 }

@@ -66,7 +66,7 @@ export function Header() {
               useDarkText ? "text-earth-950" : "text-white"
             }`}
           >
-            VanLife<span className="text-accent-orange">Kitchen</span>
+            VanLife<span className="text-accent-orange">Kitchens</span>
           </span>
         </Link>
 

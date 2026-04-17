@@ -22,7 +22,7 @@ export function SocialShare({
   const encodedTitle = encodeURIComponent(title);
   const encodedDesc = encodeURIComponent(description ?? "");
   const encodedImage = encodeURIComponent(imageUrl ?? "");
-  const emailSubject = encodeURIComponent(`VanLifeKitchen: ${title}`);
+  const emailSubject = encodeURIComponent(`VanLifeKitchens: ${title}`);
   const emailBody = encodeURIComponent(
     `${description ? description + "\n\n" : ""}${url}`,
   );

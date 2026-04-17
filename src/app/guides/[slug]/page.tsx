@@ -87,7 +87,7 @@ export default async function GuidePage({ params }: { params: { slug: string } }
     },
     publisher: {
       "@type": "Organization",
-      name: "VanLifeKitchen",
+      name: "VanLifeKitchens",
       url: "https://vanlifekitchens.com",
       logo: {
         "@type": "ImageObject",

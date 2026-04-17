@@ -16,20 +16,20 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: {
-    default: "VanLifeKitchen — Cook Anywhere. Live Everywhere.",
-    template: "%s | VanLifeKitchen",
+    default: "VanLifeKitchens — Cook Anywhere. Live Everywhere.",
+    template: "%s | VanLifeKitchens",
   },
   description:
     "Independent reviews and field guides for van life kitchen gear. Tested on the road, written by nomads — never sponsored, never ranked by commission.",
   metadataBase: new URL("https://vanlifekitchens.com"),
-  applicationName: "VanLifeKitchen",
+  applicationName: "VanLifeKitchens",
   authors: [
     { name: "Maya Larsen", url: "https://vanlifekitchens.com/about" },
     { name: "Theo Park", url: "https://vanlifekitchens.com/about" },
     { name: "Cassidy Brooks", url: "https://vanlifekitchens.com/about" },
   ],
-  creator: "VanLifeKitchen Editorial Team",
-  publisher: "VanLifeKitchen",
+  creator: "VanLifeKitchens Editorial Team",
+  publisher: "VanLifeKitchens",
   keywords: [
     "van life kitchen",
     "12V fridge",
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    siteName: "VanLifeKitchen",
+    siteName: "VanLifeKitchens",
     locale: "en_US",
     url: "https://vanlifekitchens.com",
-    title: "VanLifeKitchen — Cook Anywhere. Live Everywhere.",
+    title: "VanLifeKitchens — Cook Anywhere. Live Everywhere.",
     description:
       "Independent reviews and field guides for van life kitchen gear. Tested on the road, written by nomads.",
     images: [
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@vanlifekitchen",
     creator: "@vanlifekitchen",
-    title: "VanLifeKitchen — Cook Anywhere. Live Everywhere.",
+    title: "VanLifeKitchens — Cook Anywhere. Live Everywhere.",
     description:
       "Independent reviews and field guides for van life kitchen gear. Tested on the road.",
     images: ["/images/hero/og-default.jpg"],
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     canonical: "/",
     types: {
       "application/rss+xml": [
-        { url: "/rss.xml", title: "VanLifeKitchen — Reviews, Guides & Setups" },
+        { url: "/rss.xml", title: "VanLifeKitchens — Reviews, Guides & Setups" },
       ],
     },
   },
@@ -112,8 +112,8 @@ export const viewport: import("next").Viewport = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "VanLifeKitchen",
-  alternateName: "VanLifeKitchen.com",
+  name: "VanLifeKitchens",
+  alternateName: "VanLifeKitchens.com",
   url: "https://vanlifekitchens.com",
   logo: "https://vanlifekitchens.com/images/hero/og-default.jpg",
   description:
@@ -135,7 +135,7 @@ const organizationJsonLd = {
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "VanLifeKitchen",
+  name: "VanLifeKitchens",
   url: "https://vanlifekitchens.com",
   potentialAction: {
     "@type": "SearchAction",

@@ -4,11 +4,46 @@ import { ArrowRight } from "lucide-react";
 import { HubHero } from "@/components/HubHero";
 import { guides } from "@/lib/data";
 
-export const metadata = { title: "Guides" };
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Van Life Kitchen Guides",
+  description:
+    "Long-form guides on van kitchen setup, power, water, and meal prep — written by full-time van dwellers who actually live it.",
+  openGraph: {
+    title: "Van Life Kitchen Guides",
+    description:
+      "Long-form guides on van kitchen setup, power, water, and meal prep — written by full-time van dwellers who actually live it.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "VanLifeKitchens guides" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Van Life Kitchen Guides",
+    description:
+      "Long-form guides on van kitchen setup, power, water, and meal prep — written by full-time van dwellers who actually live it.",
+  },
+  alternates: { canonical: "/guides" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Van Life Kitchen Guides",
+  "description":
+    "Long-form guides on van kitchen setup, power, water, and meal prep — written by full-time van dwellers who actually live it.",
+  "url": "https://vanlifekitchens.com/guides",
+};
 
 export default function GuidesHubPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <HubHero
         image="/images/hero/guides.jpg"
         alt="Van kitchen layout sketch in a notebook"

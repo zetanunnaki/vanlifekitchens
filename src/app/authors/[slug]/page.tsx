@@ -36,6 +36,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     },
     twitter: {
       card: "summary_large_image",
+      site: "@vanlifekitchen",
+      creator: "@vanlifekitchen",
       title,
       description,
     },
@@ -62,7 +64,7 @@ export default function AuthorPage({ params }: { params: { slug: string } }) {
     knowsAbout: editor.expertise,
     worksFor: {
       "@type": "Organization",
-      name: "VanLifeKitchen",
+      name: "VanLifeKitchens",
       url: "https://vanlifekitchens.com",
     },
   };

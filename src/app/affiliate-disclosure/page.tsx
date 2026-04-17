@@ -3,7 +3,22 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
   description:
-    "VanLifeKitchen.com participates in the Amazon Services LLC Associates Program and the Walmart Affiliate Program. Full disclosure of our affiliate relationships and how we earn commissions.",
+    "VanLifeKitchens.com participates in the Amazon Associates and Walmart Affiliate programs. Full disclosure of how we earn commissions.",
+  openGraph: {
+    title: "Affiliate Disclosure — VanLifeKitchens",
+    description:
+      "VanLifeKitchens.com participates in the Amazon Associates and Walmart Affiliate programs. Full disclosure of how we earn commissions.",
+    type: "website",
+    images: [{ url: "/images/hero/og-default.jpg", width: 1920, height: 1080, alt: "VanLifeKitchens affiliate disclosure" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@vanlifekitchen",
+    creator: "@vanlifekitchen",
+    title: "Affiliate Disclosure — VanLifeKitchens",
+    description:
+      "VanLifeKitchens.com participates in the Amazon Associates and Walmart Affiliate programs. Full disclosure of how we earn commissions.",
+  },
   alternates: { canonical: "/affiliate-disclosure" },
 };
 
@@ -22,7 +37,7 @@ export default function AffiliateDisclosurePage() {
 
         <div className="prose-editorial space-y-6">
           <p className="text-lg leading-[1.85] text-earth-800">
-            VanLifeKitchen.com (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is an
+            VanLifeKitchens.com (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is an
             independent product review website. To keep this site running, we participate in
             two affiliate marketing programs: the <strong>Amazon Services LLC Associates
             Program</strong> and the <strong>Walmart Affiliate Program</strong>. When you click
@@ -43,7 +58,7 @@ export default function AffiliateDisclosurePage() {
 
           <div className="bg-earth-50 border-l-4 border-accent-orange p-6 my-6 rounded-r-2xl">
             <p className="text-earth-900 font-semibold leading-relaxed mb-0">
-              VanLifeKitchen.com is a participant in the Amazon Services LLC Associates Program,
+              VanLifeKitchens.com is a participant in the Amazon Services LLC Associates Program,
               an affiliate advertising program designed to provide a means for sites to earn
               advertising fees by advertising and linking to Amazon.com. As an Amazon Associate
               we earn from qualifying purchases.
@@ -67,7 +82,7 @@ export default function AffiliateDisclosurePage() {
           </h2>
 
           <p className="text-lg leading-[1.85] text-earth-800">
-            VanLifeKitchen.com is also a participant in the Walmart Affiliate Program. When you
+            VanLifeKitchens.com is also a participant in the Walmart Affiliate Program. When you
             click a Walmart link on our site and complete a purchase on Walmart.com, we may
             earn a commission. We are not affiliated with, owned by, or endorsed by Walmart Inc.
           </p>

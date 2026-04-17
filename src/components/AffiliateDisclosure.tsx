@@ -11,7 +11,7 @@ export function AffiliateDisclosure({ compact = false }: { compact?: boolean }) 
     return (
       <p className="text-xs text-earth-500 italic leading-relaxed">
         <strong className="not-italic font-semibold text-earth-700">Disclosure:</strong>{" "}
-        VanLifeKitchen.com is reader-supported. When you buy through links on our site, we may
+        VanLifeKitchens.com is reader-supported. When you buy through links on our site, we may
         earn an affiliate commission at no cost to you. As an Amazon Associate we earn from
         qualifying purchases.{" "}
         <Link
@@ -31,7 +31,7 @@ export function AffiliateDisclosure({ compact = false }: { compact?: boolean }) 
         <Info className="w-4 h-4" />
       </div>
       <div className="text-earth-700 leading-relaxed">
-        <strong className="text-earth-950">Disclosure:</strong> VanLifeKitchen.com is
+        <strong className="text-earth-950">Disclosure:</strong> VanLifeKitchens.com is
         reader-supported. When you buy through links on our site, we may earn an affiliate
         commission at no extra cost to you. As an Amazon Associate we earn from qualifying
         purchases. Our editorial opinions are independent and not influenced by these

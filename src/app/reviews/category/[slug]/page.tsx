@@ -23,7 +23,14 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title,
     description,
-    openGraph: { title, description, images: [{ url: category.image }] },
+    openGraph: { title, description, type: "website", images: [{ url: category.image, width: 1920, height: 1080, alt: `Best ${category.name} for van life` }] },
+    twitter: {
+      card: "summary_large_image",
+      site: "@vanlifekitchen",
+      creator: "@vanlifekitchen",
+      title,
+      description,
+    },
     alternates: { canonical: `/reviews/category/${category.slug}` },
   };
 }
