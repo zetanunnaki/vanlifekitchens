@@ -26,7 +26,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const guide = guides.find((g) => g.slug === params.slug);
   if (!guide) return { title: "Guide Not Found" };
   const description = guide.excerpt.slice(0, 155);
-  // OG/Twitter card images come from ./opengraph-image.tsx automatically.
+  const ogImage = `/og/guides/${guide.slug}.png`;
   return {
     title: guide.title,
     description,
@@ -35,6 +35,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       description,
       type: "article",
       tags: [guide.category, "van life", "guide"],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: guide.title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -42,6 +43,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       creator: "@vanlifekitchen",
       title: guide.title,
       description,
+      images: [ogImage],
     },
     alternates: { canonical: `/guides/${guide.slug}` },
   };

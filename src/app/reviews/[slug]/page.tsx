@@ -25,8 +25,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const year = new Date(product.updated).getFullYear();
   const title = `${product.name} Review (${year})`;
   const description = product.verdict.slice(0, 155);
-  // Note: OG/Twitter card images are generated dynamically by
-  // ./opengraph-image.tsx — Next.js wires them into metadata automatically.
+  const ogImage = `/og/reviews/${product.slug}.png`;
   return {
     title,
     description,
@@ -36,6 +35,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       type: "article",
       authors: [product.author],
       tags: [product.category, "van life", "review"],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -43,6 +43,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       creator: "@vanlifekitchen",
       title,
       description,
+      images: [ogImage],
     },
     alternates: { canonical: `/reviews/${product.slug}` },
   };

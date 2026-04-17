@@ -25,6 +25,9 @@ Thumbs.db
 # Claude Code cache
 .claude/
 
+# Generated OG images (built in CI via prebuild)
+public/og/
+
 # Build artifacts and reports
 lighthouse-report.json
 *.log

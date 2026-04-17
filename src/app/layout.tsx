@@ -88,8 +88,8 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   icons: [
     { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-    { rel: "icon", url: "/icon", sizes: "64x64", type: "image/png" },
-    { rel: "apple-touch-icon", url: "/apple-icon", sizes: "180x180", type: "image/png" },
+    { rel: "icon", url: "/icon-64x64.png", sizes: "64x64", type: "image/png" },
+    { rel: "apple-touch-icon", url: "/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
     { rel: "icon", url: "/icon-192x192.png", sizes: "192x192", type: "image/png" },
     { rel: "icon", url: "/icon-512x512.png", sizes: "512x512", type: "image/png" },
   ],
@@ -151,6 +151,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${jetbrains.variable} ${fraunces.variable}`}>
       <head>
+        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
+        <meta httpEquiv="X-Frame-Options" content="DENY" />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

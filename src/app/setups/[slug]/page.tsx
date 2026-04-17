@@ -17,7 +17,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!setup) return { title: "Setup Not Found" };
   const title = `${setup.name} — ${setup.vanType} Kitchen Build`;
   const description = `Inside the ${setup.name}: a real ${setup.vanType} van kitchen build with a total gear cost of ${setup.budget}. Every product, every trade-off, every lesson learned.`;
-  // OG/Twitter card images come from ./opengraph-image.tsx automatically.
+  const ogImage = `/og/setups/${setup.slug}.png`;
   return {
     title,
     description,
@@ -26,6 +26,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       description,
       type: "article",
       tags: [setup.vanType, "van life", "build"],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -33,6 +34,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       creator: "@vanlifekitchen",
       title,
       description,
+      images: [ogImage],
     },
     alternates: { canonical: `/setups/${setup.slug}` },
   };
