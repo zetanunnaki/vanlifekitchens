@@ -152,6 +152,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${jetbrains.variable} ${fraunces.variable}`}>
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3R2RTNB7B" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Y3R2RTNB7B');`,
+          }}
+        />
         <link rel="preload" href="/images/hero/home.jpg" as="image" type="image/jpeg" />
 
 
