@@ -1,6 +1,6 @@
 import type { Product } from "./data";
 
-export const AMAZON_TAG = "vanlifekitch-20";
+export const AMAZON_TAG = "vanlifekitchens-20";
 // Walmart Impact Radius affiliate identifier — set to your real one when approved.
 // Until then, links route through normal walmart.com search and will start tracking
 // once the parameter is updated here.
