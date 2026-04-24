@@ -40,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const setupRoutes: MetadataRoute.Sitemap = setups.map((s) => ({
     url: `${BASE_URL}/setups/${s.slug}`,
+    lastModified: s.updated ? new Date(s.updated) : new Date(),
     changeFrequency: "monthly",
     priority: 0.6,
   }));

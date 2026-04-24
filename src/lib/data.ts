@@ -46,6 +46,7 @@ export type Setup = {
   vanType: string;
   budget: string;
   image: string;
+  updated?: string;
 };
 
 export const products = productsJson as unknown as Product[];
