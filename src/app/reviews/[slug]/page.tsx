@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, Check, Star, X } from "lucide-react";
-import { getProductBySlug, products } from "@/lib/data";
+import { getProductBySlug, products, categoryNameToSlug } from "@/lib/data";
 import { amazonLink, walmartLink } from "@/lib/affiliate";
 import { breadcrumbJsonLd, reviewCrumbs } from "@/lib/breadcrumbs";
 import { reviewFaqSchema } from "@/lib/faq-schema";
@@ -61,7 +61,9 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
     Body = null;
   }
 
-  const related = products.filter((p) => p.slug !== product.slug).slice(0, 3);
+  const sameCategory = products.filter((p) => p.slug !== product.slug && p.category === product.category);
+  const otherProducts = products.filter((p) => p.slug !== product.slug && p.category !== product.category);
+  const related = [...sameCategory, ...otherProducts].slice(0, 3);
 
   // Derive brand from name using a multi-word prefix heuristic so "John Boos",
   // "All-Clad", "GSI Outdoors", "Front Runner" etc. come out correct in JSON-LD.
@@ -153,7 +155,7 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
         <nav className="text-sm text-earth-500 mb-6">
           <Link href="/reviews" className="hover:text-accent-orange">Reviews</Link>
           <span className="mx-2">/</span>
-          <span>{product.category}</span>
+          <Link href={`/reviews/category/${categoryNameToSlug(product.category)}`} className="hover:text-accent-orange">{product.category}</Link>
         </nav>
 
         <div className="grid lg:grid-cols-[1fr,400px] gap-16">
