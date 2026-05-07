@@ -66,6 +66,7 @@ export default async function GuidePage({ params }: { params: { slug: string } }
   const absoluteImage = guide.image.startsWith("http")
     ? guide.image
     : `https://vanlifekitchens.com${guide.image}`;
+  const published = guide.published ?? guide.updated ?? "2025-01-15";
   const updated = guide.updated ?? "2026-04-15";
 
   const jsonLd = {
@@ -77,7 +78,7 @@ export default async function GuidePage({ params }: { params: { slug: string } }
     image: [absoluteImage],
     description: guide.excerpt,
     articleSection: guide.category,
-    datePublished: updated,
+    datePublished: published,
     dateModified: updated,
     author: {
       "@type": "Person",

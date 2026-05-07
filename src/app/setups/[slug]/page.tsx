@@ -56,7 +56,8 @@ export default async function SetupDetailPage({ params }: { params: { slug: stri
   const absoluteImage = setup.image.startsWith("http")
     ? setup.image
     : `https://vanlifekitchens.com${setup.image}`;
-  const today = new Date().toISOString().slice(0, 10);
+  const published = setup.published ?? "2025-06-01";
+  const updated = setup.updated ?? new Date().toISOString().slice(0, 10);
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -67,8 +68,8 @@ export default async function SetupDetailPage({ params }: { params: { slug: stri
     image: [absoluteImage],
     description: `Inside the ${setup.name}: a real ${setup.vanType} van kitchen build with a total gear cost of ${setup.budget}.`,
     articleSection: "Setups",
-    datePublished: today,
-    dateModified: today,
+    datePublished: published,
+    dateModified: updated,
     author: {
       "@type": "Organization",
       name: "VanLifeKitchens Editorial Team",

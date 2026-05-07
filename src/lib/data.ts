@@ -20,6 +20,7 @@ export type Product = {
   pros: string[];
   cons: string[];
   specs: Record<string, string>;
+  published: string;
   updated: string;
   author: string;
 };
@@ -40,6 +41,7 @@ export type Guide = {
   excerpt: string;
   category: string;
   image: string;
+  published?: string;
   updated?: string;
 };
 
@@ -49,6 +51,7 @@ export type Setup = {
   vanType: string;
   budget: string;
   image: string;
+  published?: string;
   updated?: string;
 };
 

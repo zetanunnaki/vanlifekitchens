@@ -108,7 +108,7 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
         name: "VanLifeKitchens",
         url: "https://vanlifekitchens.com",
       },
-      datePublished: product.updated,
+      datePublished: product.published,
       dateModified: product.updated,
       reviewBody: product.verdict,
       name: `${product.name} Review`,
@@ -170,6 +170,8 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
                 <span className="font-bold tabular-nums">{product.rating}</span>
                 <span className="text-earth-500 font-normal">({product.reviews} reviews)</span>
               </div>
+              <span className="w-1 h-1 rounded-full bg-earth-300" />
+              <span>Published <time className="tabular-nums">{product.published}</time></span>
               <span className="w-1 h-1 rounded-full bg-earth-300" />
               <span>Updated <time className="tabular-nums">{product.updated}</time></span>
               <span className="w-1 h-1 rounded-full bg-earth-300" />

@@ -31,8 +31,9 @@
       "Origin": "Made in USA (Effingham, IL)",
       "Warranty": "Lifetime against defects"
     },
-    "updated": "2026-04-07",
-    "author": "Theo Park"
+    "updated": "2026-03-01",
+    "author": "Theo Park",
+    "published": "2025-04-16"
   },
   {
     "slug": "oxo-good-grips-kitchen-herb-scissors",
@@ -66,8 +67,9 @@
       "Dishwasher Safe": "Yes (take-apart)",
       "Warranty": "OXO Better Guarantee"
     },
-    "updated": "2026-04-07",
-    "author": "Theo Park"
+    "updated": "2026-03-30",
+    "author": "Theo Park",
+    "published": "2025-10-10"
   },
   {
     "slug": "grayl-geopress-24oz-purifier",
@@ -101,8 +103,9 @@
       "NSF Testing": "NSF/ANSI 42, 53 tested",
       "Warranty": "10-year limited"
     },
-    "updated": "2026-02-08",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-13",
+    "author": "Cassidy Brooks",
+    "published": "2025-01-03"
   },
   {
     "slug": "clearsource-ultra-rv-inline-filter",
@@ -136,8 +139,9 @@
       "Weight": "4 lbs",
       "Fittings": "3/4-inch garden hose thread"
     },
-    "updated": "2026-03-31",
-    "author": "Cassidy Brooks"
+    "updated": "2026-01-18",
+    "author": "Cassidy Brooks",
+    "published": "2024-07-31"
   },
   {
     "slug": "benriner-classic-mandoline-slicer",
@@ -171,8 +175,9 @@
       "Weight": "7 oz",
       "Origin": "Made in Japan"
     },
-    "updated": "2026-03-18",
-    "author": "Theo Park"
+    "updated": "2026-01-10",
+    "author": "Theo Park",
+    "published": "2024-06-10"
   },
   {
     "slug": "dometic-cfx3-35-powered-cooler",
@@ -206,8 +211,9 @@
       "Power Draw": "~0.8 Ah avg",
       "Warranty": "3 years"
     },
-    "updated": "2026-02-13",
-    "author": "Maya Larsen"
+    "updated": "2026-01-25",
+    "author": "Maya Larsen",
+    "published": "2024-09-11"
   },
   {
     "slug": "iceco-vl35-prof",
@@ -241,8 +247,9 @@
       "Power Draw": "~1.0 Ah avg",
       "Warranty": "2 years"
     },
-    "updated": "2026-01-01",
-    "author": "Maya Larsen"
+    "updated": "2026-02-23",
+    "author": "Maya Larsen",
+    "published": "2025-03-06"
   },
   {
     "slug": "whynter-fm-45g-dual-zone-fridge",
@@ -275,8 +282,9 @@
       "Power Draw": "~1.4 Ah avg (dual zone)",
       "Warranty": "1 year (extendable)"
     },
-    "updated": "2026-02-23",
-    "author": "Maya Larsen"
+    "updated": "2026-04-26",
+    "author": "Maya Larsen",
+    "published": "2026-03-24"
   },
   {
     "slug": "duxtop-portable-induction-cooktop",
@@ -310,8 +318,9 @@
       "Materials": "Ceramic glass, ABS",
       "Warranty": "1 year"
     },
-    "updated": "2026-03-28",
-    "author": "Theo Park"
+    "updated": "2026-01-28",
+    "author": "Theo Park",
+    "published": "2024-10-02"
   },
   {
     "slug": "gas-one-gs-3000-butane-stove",
@@ -345,8 +354,9 @@
       "Materials": "Steel + ABS",
       "Warranty": "1 year"
     },
-    "updated": "2026-01-19",
-    "author": "Theo Park"
+    "updated": "2026-02-06",
+    "author": "Theo Park",
+    "published": "2024-11-22"
   },
   {
     "slug": "kenyon-silken-induction-cooktop",
@@ -379,8 +389,9 @@
       "Materials": "Stainless + ceramic glass",
       "Warranty": "3 years"
     },
-    "updated": "2026-03-14",
-    "author": "Theo Park"
+    "updated": "2026-03-05",
+    "author": "Theo Park",
+    "published": "2025-05-07"
   },
   {
     "slug": "magma-nesting-10-piece-set",
@@ -413,8 +424,9 @@
       "Compatibility": "Gas / induction / electric",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-01-17",
-    "author": "Theo Park"
+    "updated": "2026-03-15",
+    "author": "Theo Park",
+    "published": "2025-07-08"
   },
   {
     "slug": "stanley-adventure-base-camp-cookset",
@@ -447,8 +459,9 @@
       "Serves": "4",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-04-02",
-    "author": "Theo Park"
+    "updated": "2026-04-15",
+    "author": "Theo Park",
+    "published": "2026-01-11"
   },
   {
     "slug": "snow-peak-titanium-cookset",
@@ -481,8 +494,9 @@
       "Compatibility": "Gas / wood fire / alcohol",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-02-03",
-    "author": "Theo Park"
+    "updated": "2026-04-11",
+    "author": "Theo Park",
+    "published": "2025-12-21"
   },
   {
     "slug": "lifestraw-home-gravity-pitcher",
@@ -516,8 +530,9 @@
       "Filter Life": "264 gallons (membrane), 40 gallons (carbon)",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-03-09",
-    "author": "Cassidy Brooks"
+    "updated": "2026-03-08",
+    "author": "Cassidy Brooks",
+    "published": "2025-05-28"
   },
   {
     "slug": "sawyer-squeeze-water-filter",
@@ -551,8 +566,9 @@
       "Materials": "Hollow fiber, BPA-free plastic",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-02-10",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-08",
+    "author": "Cassidy Brooks",
+    "published": "2025-11-30"
   },
   {
     "slug": "front-runner-wolf-pack-pro",
@@ -585,8 +601,9 @@
       "Load": "176 lb stacked",
       "Warranty": "5 years"
     },
-    "updated": "2026-01-29",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-02",
+    "author": "Cassidy Brooks",
+    "published": "2024-11-02"
   },
   {
     "slug": "iris-weathertight-storage-set",
@@ -619,8 +636,9 @@
       "Stack Rating": "~40 lb",
       "Warranty": "1 year"
     },
-    "updated": "2026-02-27",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-26",
+    "author": "Cassidy Brooks",
+    "published": "2025-03-27"
   },
   {
     "slug": "magnetic-spice-rack-wall-mount",
@@ -653,8 +671,9 @@
       "Mounting": "Screws / adhesive",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-03-02",
-    "author": "Cassidy Brooks"
+    "updated": "2026-03-17",
+    "author": "Cassidy Brooks",
+    "published": "2025-07-19"
   },
   {
     "slug": "gosun-sport-solar-cooker",
@@ -687,8 +706,9 @@
       "Materials": "Tempered glass + stainless reflectors",
       "Warranty": "2 years"
     },
-    "updated": "2026-01-20",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-07",
+    "author": "Cassidy Brooks",
+    "published": "2024-12-03"
   },
   {
     "slug": "sunflair-portable-solar-oven",
@@ -721,8 +741,9 @@
       "Materials": "Mylar + fabric + tempered glass",
       "Warranty": "1 year"
     },
-    "updated": "2026-02-18",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-20",
+    "author": "Cassidy Brooks",
+    "published": "2026-02-11"
   },
   {
     "slug": "coleman-classic-2-burner-propane-stove",
@@ -756,8 +777,9 @@
       "Weight": "11.8 lbs",
       "Warranty": "5 years"
     },
-    "updated": "2026-04-17",
-    "author": "Theo Park"
+    "updated": "2026-01-20",
+    "author": "Theo Park",
+    "published": "2024-08-11"
   },
   {
     "slug": "nuwave-pic-gold-induction-cooktop",
@@ -790,8 +812,9 @@
       "Weight": "5.6 lbs",
       "Warranty": "1 year"
     },
-    "updated": "2026-03-18",
-    "author": "Theo Park"
+    "updated": "2026-03-24",
+    "author": "Theo Park",
+    "published": "2025-08-29"
   },
   {
     "slug": "costway-30qt-12v-portable-refrigerator",
@@ -825,8 +848,9 @@
       "Power Draw": "~1.3 Ah avg",
       "Warranty": "1 year"
     },
-    "updated": "2026-04-14",
-    "author": "Maya Larsen"
+    "updated": "2026-01-21",
+    "author": "Maya Larsen",
+    "published": "2024-08-21"
   },
   {
     "slug": "lodge-cast-iron-skillet-10-25",
@@ -860,8 +884,9 @@
       "Compatibility": "Gas / induction / electric / oven / fire",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-01-27",
-    "author": "Theo Park"
+    "updated": "2026-03-10",
+    "author": "Theo Park",
+    "published": "2025-06-07"
   },
   {
     "slug": "gsi-outdoors-pinnacle-camper-cookset",
@@ -894,8 +919,9 @@
       "Compatibility": "Gas / electric / fire (NO induction)",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-04-12",
-    "author": "Theo Park"
+    "updated": "2026-02-14",
+    "author": "Theo Park",
+    "published": "2025-01-13"
   },
   {
     "slug": "yeti-loadout-gobox-30",
@@ -928,8 +954,9 @@
       "Waterproof Rating": "IPX-7",
       "Warranty": "5 years"
     },
-    "updated": "2026-01-05",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-30",
+    "author": "Cassidy Brooks",
+    "published": "2026-04-14"
   },
   {
     "slug": "camp-chef-everest-2x-2-burner-stove",
@@ -963,8 +990,9 @@
       "Weight": "12 lbs",
       "Warranty": "5 years"
     },
-    "updated": "2026-03-16",
-    "author": "Theo Park"
+    "updated": "2026-01-16",
+    "author": "Theo Park",
+    "published": "2024-07-21"
   },
   {
     "slug": "iwatani-za-3hp-butane-stove",
@@ -997,8 +1025,9 @@
       "Materials": "Stainless steel + ABS",
       "Warranty": "1 year"
     },
-    "updated": "2026-02-01",
-    "author": "Theo Park"
+    "updated": "2026-02-28",
+    "author": "Theo Park",
+    "published": "2025-04-06"
   },
   {
     "slug": "alpicool-c20-12v-portable-fridge",
@@ -1031,8 +1060,9 @@
       "Power Draw": "~1.2 Ah avg",
       "Warranty": "1 year"
     },
-    "updated": "2026-02-25",
-    "author": "Maya Larsen"
+    "updated": "2026-01-06",
+    "author": "Maya Larsen",
+    "published": "2024-05-20"
   },
   {
     "slug": "sea-to-summit-x-pot-2-8l",
@@ -1066,8 +1096,9 @@
       "Materials": "Food-grade silicone plus hard-anodized aluminum base",
       "Compatibility": "Gas / electric — NO induction"
     },
-    "updated": "2026-01-07",
-    "author": "Theo Park"
+    "updated": "2026-04-09",
+    "author": "Theo Park",
+    "published": "2025-12-11"
   },
   {
     "slug": "dometic-cfx3-45-powered-cooler",
@@ -1101,8 +1132,9 @@
       "Power Draw": "~1.0 Ah avg",
       "Warranty": "3 years (5 on compressor)"
     },
-    "updated": "2026-02-15",
-    "author": "Maya Larsen"
+    "updated": "2026-01-27",
+    "author": "Maya Larsen",
+    "published": "2024-09-21"
   },
   {
     "slug": "iceco-jp30-pro-12v-fridge",
@@ -1135,8 +1167,9 @@
       "Power Draw": "~0.95 Ah avg",
       "Warranty": "3 years"
     },
-    "updated": "2026-01-10",
-    "author": "Maya Larsen"
+    "updated": "2026-02-24",
+    "author": "Maya Larsen",
+    "published": "2025-03-16"
   },
   {
     "slug": "whynter-fm-62dz-dual-zone",
@@ -1170,8 +1203,9 @@
       "Power Draw": "~1.6 Ah avg (dual)",
       "Warranty": "1 year (extendable)"
     },
-    "updated": "2026-01-14",
-    "author": "Maya Larsen"
+    "updated": "2026-04-28",
+    "author": "Maya Larsen",
+    "published": "2026-04-04"
   },
   {
     "slug": "eureka-sprk-plus-camp-stove",
@@ -1204,8 +1238,9 @@
       "Materials": "Stainless steel + aluminum",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-02-08",
-    "author": "Theo Park"
+    "updated": "2026-01-30",
+    "author": "Theo Park",
+    "published": "2024-10-12"
   },
   {
     "slug": "coleman-triton-2-burner-stove",
@@ -1238,8 +1273,9 @@
       "Weight": "12.4 lbs",
       "Warranty": "5 years"
     },
-    "updated": "2026-02-18",
-    "author": "Theo Park"
+    "updated": "2026-01-23",
+    "author": "Theo Park",
+    "published": "2024-08-31"
   },
   {
     "slug": "lodge-5qt-cast-iron-dutch-oven",
@@ -1273,8 +1309,9 @@
       "Compatibility": "Gas / induction / electric / oven / fire",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-02-23",
-    "author": "Theo Park"
+    "updated": "2026-03-12",
+    "author": "Theo Park",
+    "published": "2025-06-18"
   },
   {
     "slug": "msr-alpine-stowaway-pot",
@@ -1307,8 +1344,9 @@
       "Compatibility": "Gas / induction / electric",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-01-12",
-    "author": "Theo Park"
+    "updated": "2026-03-18",
+    "author": "Theo Park",
+    "published": "2025-07-29"
   },
   {
     "slug": "all-clad-d3-stainless-skillet-10",
@@ -1342,8 +1380,9 @@
       "Compatibility": "Gas / induction / electric / oven",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-02-28",
-    "author": "Theo Park"
+    "updated": "2026-01-08",
+    "author": "Theo Park",
+    "published": "2024-05-30"
   },
   {
     "slug": "platypus-gravityworks-4l-filter",
@@ -1377,8 +1416,9 @@
       "Power Source": "None (gravity)",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-03-11",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-04",
+    "author": "Cassidy Brooks",
+    "published": "2025-11-10"
   },
   {
     "slug": "katadyn-befree-1l-filter",
@@ -1411,8 +1451,9 @@
       "Flow Rate": "~2 L/min",
       "Warranty": "2 years"
     },
-    "updated": "2026-01-09",
-    "author": "Cassidy Brooks"
+    "updated": "2026-03-03",
+    "author": "Cassidy Brooks",
+    "published": "2025-04-27"
   },
   {
     "slug": "plano-sportsman-trunk-108qt",
@@ -1445,8 +1486,9 @@
       "Load": "150 lb stack rating",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-02-03",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-06",
+    "author": "Cassidy Brooks",
+    "published": "2025-11-20"
   },
   {
     "slug": "pelican-1430-top-loader-case",
@@ -1479,8 +1521,9 @@
       "Waterproof Rating": "IP67",
       "Warranty": "Lifetime guarantee"
     },
-    "updated": "2026-01-22",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-03",
+    "author": "Cassidy Brooks",
+    "published": "2025-10-30"
   },
   {
     "slug": "aeropress-original-coffee-maker",
@@ -1513,8 +1556,9 @@
       "Materials": "BPA-free polypropylene",
       "Warranty": "1 year"
     },
-    "updated": "2026-03-08",
-    "author": "Theo Park"
+    "updated": "2026-01-05",
+    "author": "Theo Park",
+    "published": "2024-05-10"
   },
   {
     "slug": "hario-v60-02-ceramic-dripper",
@@ -1547,8 +1591,9 @@
       "Filter": "Hario V60 02 paper",
       "Warranty": "1 year"
     },
-    "updated": "2026-01-24",
-    "author": "Theo Park"
+    "updated": "2026-02-18",
+    "author": "Theo Park",
+    "published": "2025-02-03"
   },
   {
     "slug": "bialetti-moka-express-6-cup",
@@ -1581,8 +1626,9 @@
       "Compatibility": "Gas / propane / butane / fire (NO induction)",
       "Warranty": "2 years"
     },
-    "updated": "2026-01-29",
-    "author": "Theo Park"
+    "updated": "2026-01-11",
+    "author": "Theo Park",
+    "published": "2024-06-20"
   },
   {
     "slug": "wacaco-picopresso-portable-espresso",
@@ -1616,8 +1662,9 @@
       "Materials": "ABS + stainless steel",
       "Warranty": "2 years"
     },
-    "updated": "2026-04-09",
-    "author": "Theo Park"
+    "updated": "2026-04-25",
+    "author": "Theo Park",
+    "published": "2026-03-14"
   },
   {
     "slug": "hario-skerton-pro-hand-grinder",
@@ -1650,8 +1697,9 @@
       "Materials": "Glass + ceramic + steel",
       "Warranty": "1 year"
     },
-    "updated": "2026-03-05",
-    "author": "Theo Park"
+    "updated": "2026-02-19",
+    "author": "Theo Park",
+    "published": "2025-02-13"
   },
   {
     "slug": "stanley-classic-vacuum-french-press",
@@ -1684,8 +1732,9 @@
       "Insulation": "Vacuum double-wall",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-04-04",
-    "author": "Theo Park"
+    "updated": "2026-04-16",
+    "author": "Theo Park",
+    "published": "2026-01-21"
   },
   {
     "slug": "bonavita-electric-gooseneck-kettle",
@@ -1718,8 +1767,9 @@
       "Materials": "Stainless steel",
       "Warranty": "1 year"
     },
-    "updated": "2026-04-02",
-    "author": "Theo Park"
+    "updated": "2026-01-15",
+    "author": "Theo Park",
+    "published": "2024-07-11"
   },
   {
     "slug": "gsi-outdoors-ultralight-java-drip",
@@ -1751,8 +1801,9 @@
       "Filter": "Built-in reusable mesh",
       "Warranty": "1 year"
     },
-    "updated": "2026-03-21",
-    "author": "Theo Park"
+    "updated": "2026-02-16",
+    "author": "Theo Park",
+    "published": "2025-01-24"
   },
   {
     "slug": "gosun-fusion-hybrid-solar-oven",
@@ -1785,8 +1836,9 @@
       "Cook Capacity": "~3 lb food",
       "Warranty": "2 years"
     },
-    "updated": "2026-03-07",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-09",
+    "author": "Cassidy Brooks",
+    "published": "2024-12-13"
   },
   {
     "slug": "solavore-sport-solar-oven",
@@ -1819,8 +1871,9 @@
       "Materials": "UV-stable plastic + tempered glass",
       "Warranty": "1 year"
     },
-    "updated": "2026-01-24",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-13",
+    "author": "Cassidy Brooks",
+    "published": "2026-01-01"
   },
   {
     "slug": "victorinox-fibrox-8-inch-chef-knife",
@@ -1854,8 +1907,9 @@
       "Handle": "Textured Fibrox polymer",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-03-23",
-    "author": "Theo Park"
+    "updated": "2026-04-23",
+    "author": "Theo Park",
+    "published": "2026-03-04"
   },
   {
     "slug": "opinel-no-8-stainless-folding-knife",
@@ -1888,8 +1942,9 @@
       "Handle": "Beechwood",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-03-26",
-    "author": "Theo Park"
+    "updated": "2026-03-29",
+    "author": "Theo Park",
+    "published": "2025-09-29"
   },
   {
     "slug": "omnia-stovetop-oven",
@@ -1923,8 +1978,9 @@
       "Heat Source": "Any stove or cooktop",
       "Capacity": "~1.5 quarts"
     },
-    "updated": "2026-01-02",
-    "author": "Theo Park"
+    "updated": "2026-03-27",
+    "author": "Theo Park",
+    "published": "2025-09-19"
   },
   {
     "slug": "nutribullet-pro-900w-blender",
@@ -1958,8 +2014,9 @@
       "Cups Included": "2 (32 oz + 24 oz)",
       "Warranty": "1 year"
     },
-    "updated": "2026-02-06",
-    "author": "Theo Park"
+    "updated": "2026-03-25",
+    "author": "Theo Park",
+    "published": "2025-09-09"
   },
   {
     "slug": "foodsaver-vs0160-compact-vacuum-sealer",
@@ -1993,8 +2050,9 @@
       "Vacuum Strength": "12 inHg",
       "Warranty": "1 year"
     },
-    "updated": "2026-04-12",
-    "author": "Maya Larsen"
+    "updated": "2026-02-01",
+    "author": "Maya Larsen",
+    "published": "2024-10-22"
   },
   {
     "slug": "nesco-fd-75a-snackmaster-pro-dehydrator",
@@ -2028,8 +2086,9 @@
       "Weight": "7 lbs",
       "Warranty": "1 year"
     },
-    "updated": "2026-04-19",
-    "author": "Theo Park"
+    "updated": "2026-03-22",
+    "author": "Theo Park",
+    "published": "2025-08-19"
   },
   {
     "slug": "frigidaire-efic189-countertop-ice-maker",
@@ -2063,8 +2122,9 @@
       "Dimensions": "12 x 9.5 x 14 in",
       "Weight": "21 lbs"
     },
-    "updated": "2026-04-17",
-    "author": "Maya Larsen"
+    "updated": "2026-02-04",
+    "author": "Maya Larsen",
+    "published": "2024-11-12"
   },
   {
     "slug": "biolite-campstove-2-plus",
@@ -2098,8 +2158,9 @@
       "Fuel": "Biomass (sticks, pellets, pinecones)",
       "Battery": "2,600 mAh onboard"
     },
-    "updated": "2026-01-15",
-    "author": "Cassidy Brooks"
+    "updated": "2026-01-13",
+    "author": "Cassidy Brooks",
+    "published": "2024-06-30"
   },
   {
     "slug": "msr-pocketrocket-2-mini-stove",
@@ -2133,8 +2194,9 @@
       "Dimensions": "1.7 x 3.1 in (folded)",
       "Warranty": "Limited lifetime"
     },
-    "updated": "2026-02-20",
-    "author": "Cassidy Brooks"
+    "updated": "2026-03-20",
+    "author": "Cassidy Brooks",
+    "published": "2025-08-08"
   },
   {
     "slug": "thermapen-one-instant-read-thermometer",
@@ -2168,8 +2230,9 @@
       "Waterproof": "IP67",
       "Battery": "AAA (2,000+ hours)"
     },
-    "updated": "2026-04-22",
-    "author": "Theo Park"
+    "updated": "2026-04-21",
+    "author": "Theo Park",
+    "published": "2026-02-21"
   },
   {
     "slug": "lodge-chainmail-cast-iron-scrubber",
@@ -2202,8 +2265,9 @@
       "Dishwasher Safe": "Yes",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-03-23",
-    "author": "Theo Park"
+    "updated": "2026-03-13",
+    "author": "Theo Park",
+    "published": "2025-06-28"
   },
   {
     "slug": "hydro-flask-32oz-wide-mouth-bottle",
@@ -2237,8 +2301,9 @@
       "Mouth": "Wide (fits ice)",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-03-13",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-21",
+    "author": "Cassidy Brooks",
+    "published": "2025-02-24"
   },
   {
     "slug": "stanley-iceflow-flip-straw-tumbler-30oz",
@@ -2272,8 +2337,9 @@
       "Lid": "Flip straw, rotating",
       "Warranty": "Lifetime"
     },
-    "updated": "2026-04-22",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-18",
+    "author": "Cassidy Brooks",
+    "published": "2026-02-01"
   },
   {
     "slug": "yeti-rambler-14oz-mug",
@@ -2307,8 +2373,9 @@
       "Lid": "MagSlider magnetic",
       "Warranty": "5-year"
     },
-    "updated": "2026-01-04",
-    "author": "Theo Park"
+    "updated": "2026-05-02",
+    "author": "Theo Park",
+    "published": "2026-04-25"
   },
   {
     "slug": "klean-kanteen-tkwide-32oz-insulated",
@@ -2342,8 +2409,9 @@
       "Mouth": "TKWide (fits ice)",
       "Warranty": "Strong-as-steel guarantee"
     },
-    "updated": "2026-03-28",
-    "author": "Cassidy Brooks"
+    "updated": "2026-03-07",
+    "author": "Cassidy Brooks",
+    "published": "2025-05-18"
   },
   {
     "slug": "packit-freezable-grocery-bag",
@@ -2377,8 +2445,9 @@
       "Foldable": "Yes",
       "Warranty": "1 year"
     },
-    "updated": "2026-02-13",
-    "author": "Cassidy Brooks"
+    "updated": "2026-04-01",
+    "author": "Cassidy Brooks",
+    "published": "2025-10-20"
   },
   {
     "slug": "gosun-go-portable-solar-cooker",
@@ -2412,7 +2481,8 @@
       "Cook Time": "20-30 min in full sun",
       "Warranty": "1 year"
     },
-    "updated": "2026-03-04",
-    "author": "Cassidy Brooks"
+    "updated": "2026-02-11",
+    "author": "Cassidy Brooks",
+    "published": "2024-12-23"
   }
 ]
