@@ -73,7 +73,7 @@ export default function AffiliateDisclosurePage() {
           </p>
 
           <p className="text-lg leading-[1.85] text-earth-800">
-            Our Amazon Associates tracking ID is <code className="font-mono text-sm bg-earth-100 px-2 py-1 rounded">vanlifekitch-20</code>.
+            Our Amazon Associates tracking ID is <code className="font-mono text-sm bg-earth-100 px-2 py-1 rounded">vanlifekitchens-20</code>.
             All Amazon links on this site include this tag.
           </p>
 
