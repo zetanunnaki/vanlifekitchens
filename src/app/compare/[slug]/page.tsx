@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight, Check, Star, Trophy, X } from "lucide-react";
 import matchupsData from "@/content/matchups.json";
 import { getProductBySlug, type Product } from "@/lib/data";
-import { amazonLink, walmartLink } from "@/lib/affiliate";
+import { amazonLink } from "@/lib/affiliate";
 import { breadcrumbJsonLd } from "@/lib/breadcrumbs";
 
 type Matchup = {
@@ -167,14 +167,6 @@ export default function ComparisonPage({ params }: { params: { slug: string } })
                       className="bg-accent-orange text-white text-center py-2.5 rounded-full text-sm font-bold hover:brightness-110 transition"
                     >
                       Check Price on Amazon
-                    </a>
-                    <a
-                      href={walmartLink(p)}
-                      rel="sponsored nofollow noopener"
-                      target="_blank"
-                      className="bg-[#0071DC] text-white text-center py-2.5 rounded-full text-sm font-bold hover:brightness-110 transition"
-                    >
-                      Check Price on Walmart
                     </a>
                   </div>
                 </div>

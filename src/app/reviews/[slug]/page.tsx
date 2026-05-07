@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, Check, Star, X } from "lucide-react";
 import { getProductBySlug, products, categoryNameToSlug } from "@/lib/data";
-import { amazonLink, walmartLink } from "@/lib/affiliate";
+import { amazonLink } from "@/lib/affiliate";
 import { breadcrumbJsonLd, reviewCrumbs } from "@/lib/breadcrumbs";
 import { reviewFaqSchema } from "@/lib/faq-schema";
 import { ProductCard } from "@/components/ProductCard";
@@ -319,15 +319,6 @@ export default async function ReviewPage({ params }: { params: { slug: string } 
                     className="btn-primary w-full"
                   >
                     Check Price on Amazon
-                    <ArrowRight className="w-4 h-4" />
-                  </a>
-                  <a
-                    href={walmartLink(product)}
-                    rel="sponsored nofollow noopener"
-                    target="_blank"
-                    className="btn inline-flex w-full bg-[#0071DC] text-white px-8 py-4 rounded-full text-sm hover:brightness-110"
-                  >
-                    Check Price on Walmart
                     <ArrowRight className="w-4 h-4" />
                   </a>
                 </div>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import type { Product } from "@/lib/data";
-import { amazonLink, walmartLink } from "@/lib/affiliate";
+import { amazonLink } from "@/lib/affiliate";
 
 /**
  * Mobile-only sticky bottom buy bar.
@@ -48,14 +48,6 @@ export function StickyBuyBar({ product }: { product: Product }) {
           >
             Amazon
             <ArrowRight className="w-4 h-4" />
-          </a>
-          <a
-            href={walmartLink(product)}
-            rel="sponsored nofollow noopener"
-            target="_blank"
-            className="inline-flex items-center gap-1.5 bg-[#0071DC] text-white px-5 py-3 rounded-full text-sm font-bold whitespace-nowrap min-h-[44px]"
-          >
-            Walmart
           </a>
         </div>
       </div>

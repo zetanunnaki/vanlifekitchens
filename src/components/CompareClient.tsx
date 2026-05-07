@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Check, Plus, Star, X } from "lucide-react";
 import type { Product } from "@/lib/data";
-import { amazonLink, walmartLink } from "@/lib/affiliate";
+import { amazonLink } from "@/lib/affiliate";
 
 const MAX_COMPARE = 4;
 
@@ -236,14 +236,6 @@ export function CompareClient({ products }: { products: Product[] }) {
                           className="bg-accent-orange text-white text-center py-2 rounded-full text-xs font-bold hover:brightness-110 transition"
                         >
                           Amazon
-                        </a>
-                        <a
-                          href={walmartLink(p)}
-                          rel="sponsored nofollow noopener"
-                          target="_blank"
-                          className="bg-[#0071DC] text-white text-center py-2 rounded-full text-xs font-bold hover:brightness-110 transition"
-                        >
-                          Walmart
                         </a>
                         <Link
                           href={`/reviews/${p.slug}`}

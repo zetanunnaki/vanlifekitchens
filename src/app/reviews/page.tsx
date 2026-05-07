@@ -4,11 +4,11 @@ import { ReviewsHubClient } from "@/components/ReviewsHubClient";
 import { categories, products } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Honest Gear Reviews",
+  title: "Van Life Kitchen Gear Reviews (2026)",
   description:
     "Independent, road-tested reviews of van life kitchen gear. Filter by category to find fridges, cooktops, cookware, water filters, storage, and solar cooking options.",
   openGraph: {
-    title: "Honest Gear Reviews — VanLifeKitchens",
+    title: "Van Life Kitchen Gear Reviews (2026) — VanLifeKitchens",
     description:
       "Independent, road-tested reviews of van life kitchen gear. Fridges, cooktops, cookware, water filters, and more.",
     type: "website",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@vanlifekitchen",
     creator: "@vanlifekitchen",
-    title: "Honest Gear Reviews — VanLifeKitchens",
+    title: "Van Life Kitchen Gear Reviews (2026) — VanLifeKitchens",
     description:
       "Independent, road-tested reviews of van life kitchen gear. Fridges, cooktops, cookware, water filters, and more.",
   },

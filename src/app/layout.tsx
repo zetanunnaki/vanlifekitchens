@@ -159,7 +159,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         <link rel="preload" href="/images/hero/home.jpg" as="image" type="image/jpeg" />
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
         <meta name="referrer" content="strict-origin-when-cross-origin" />
         <script
