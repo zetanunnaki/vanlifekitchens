@@ -54,6 +54,22 @@ export default function ComparePage() {
           </p>
         </div>
 
+        <div className="max-w-3xl mx-auto mb-14 space-y-6">
+          <div className="prose-editorial">
+            <p className="text-base leading-[1.85] text-earth-700 text-center">
+              Choosing between two similar products is one of the hardest parts of building a van
+              kitchen. Our comparison tool puts real specs, editorial scores, pros, cons, and
+              prices side by side so you can see exactly where each product wins and where it falls
+              short. Every data point comes from our hands-on testing — not manufacturer claims.
+              Select products below to build your own custom comparison, or browse our{" "}
+              <a href="/compare" className="text-accent-orange font-semibold hover:underline">
+                pre-built head-to-head matchups
+              </a>{" "}
+              for our most-requested comparisons.
+            </p>
+          </div>
+        </div>
+
         <CompareClient products={products} />
       </div>
     </section>

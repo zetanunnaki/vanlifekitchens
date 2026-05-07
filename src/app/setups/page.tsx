@@ -53,6 +53,45 @@ export default function SetupsPage() {
       />
     <section className="py-24 bg-earth-50">
       <div className="container-page">
+
+        <div className="max-w-3xl mx-auto mb-16 space-y-10">
+          <div className="prose-editorial">
+            <p className="text-lg leading-[1.85] text-earth-800">
+              Nothing beats seeing how other van dwellers solved the same kitchen challenges you&apos;re
+              facing. Each setup tour below is a real van kitchen built and used by actual nomads —
+              complete with every product they chose, what it cost, how they organized their space,
+              and the lessons they learned after months of daily cooking on the road. Whether you&apos;re
+              building from scratch or upgrading an existing setup, these real-world builds show
+              what&apos;s possible at every budget level.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl border border-earth-100 p-8 md:p-10 shadow-soft-xl">
+            <div className="flex items-center gap-4 mb-5">
+              <span className="section-number">— What&apos;s Inside</span>
+              <span className="eyebrow">Every Setup Includes</span>
+            </div>
+            <ul className="grid sm:grid-cols-2 gap-4 text-earth-700">
+              <li className="flex gap-3 text-sm leading-relaxed">
+                <span className="text-accent-orange font-bold mt-0.5">01</span>
+                <span>Complete gear list with links to every product used</span>
+              </li>
+              <li className="flex gap-3 text-sm leading-relaxed">
+                <span className="text-accent-orange font-bold mt-0.5">02</span>
+                <span>Total build cost breakdown by category</span>
+              </li>
+              <li className="flex gap-3 text-sm leading-relaxed">
+                <span className="text-accent-orange font-bold mt-0.5">03</span>
+                <span>Layout photos and zone-by-zone walkthrough</span>
+              </li>
+              <li className="flex gap-3 text-sm leading-relaxed">
+                <span className="text-accent-orange font-bold mt-0.5">04</span>
+                <span>Honest takes on what works and what they&apos;d change</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {setups.map((s) => (
             <Link

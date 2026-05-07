@@ -59,6 +59,34 @@ export default function ToolsPage() {
       />
     <section className="py-24 bg-white">
       <div className="container-page">
+
+        <div className="max-w-3xl mx-auto mb-16 space-y-10">
+          <div className="prose-editorial">
+            <p className="text-lg leading-[1.85] text-earth-800">
+              Planning a van kitchen involves dozens of interconnected decisions: How much can I
+              spend? Will my battery bank support an induction cooktop? Where does the fridge go if
+              I also want counter space? Our free planning tools take the guesswork out of the
+              process. Plug in your van size, budget, and cooking habits, and get personalized
+              recommendations backed by the same data from our product reviews. No signup required —
+              results are instant.
+            </p>
+          </div>
+
+          <div className="bg-earth-50 rounded-3xl border border-earth-100 p-8 md:p-10">
+            <div className="flex items-center gap-4 mb-5">
+              <span className="section-number">— Built Different</span>
+              <span className="eyebrow">Why Our Tools</span>
+            </div>
+            <p className="text-earth-700 leading-[1.85]">
+              Most van build calculators use generic numbers pulled from spec sheets. Ours use real
+              power measurements from our review testing (measured with a Kill A Watt meter and
+              Victron BMV-712 battery monitor), actual street prices updated regularly, and layout
+              data from the van kitchen setups we&apos;ve documented. The recommendations adapt to
+              your specific van model, budget tier, and power system.
+            </p>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {tools.map((t) => {
             const Icon = t.icon;

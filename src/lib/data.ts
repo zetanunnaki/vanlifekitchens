@@ -29,6 +29,9 @@ export type Category = {
   name: string;
   icon: string;
   image: string;
+  intro?: string;
+  buyingAdvice?: string;
+  howWeTest?: string;
 };
 
 export type Guide = {

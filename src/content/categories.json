@@ -3,60 +3,90 @@
     "slug": "cooktops",
     "name": "Cooktops",
     "icon": "Flame",
-    "image": "/images/categories/cooktops.jpg"
+    "image": "/images/categories/cooktops.jpg",
+    "intro": "Your cooktop is the heart of any van kitchen. Whether you're searing steaks at a trailhead or simmering soup during a rainstorm, the right burner makes the difference between eating well and settling for cold sandwiches. Van life cooktops fall into three main categories: portable induction (efficient, safe, requires shore or inverter power), butane/propane single-burners (no electrical draw, works anywhere), and dual-fuel setups that give you flexibility across different camping scenarios.",
+    "buyingAdvice": "The biggest decision is fuel type. Induction cooktops are the safest option — no open flame, no carbon monoxide — but they require 1,000–1,800W of inverter capacity and compatible cookware. Gas burners work off-grid without draining your battery bank but need ventilation. Consider your power system, cooking style, and how often you boondock versus plug in at campgrounds.",
+    "howWeTest": "Every cooktop spends at least 30 days in our test vans. We measure boil times with 1L of water at sea level, simmer consistency over 20 minutes, fuel consumption per hour, and heat distribution across the cooking surface using an infrared thermometer. We also test wind resistance outdoors and measure BTU output versus manufacturer claims."
   },
   {
     "slug": "fridges",
     "name": "12V Fridges",
     "icon": "Refrigerator",
-    "image": "/images/categories/fridges.jpg"
+    "image": "/images/categories/fridges.jpg",
+    "intro": "A 12V compressor fridge is the single biggest quality-of-life upgrade for van life. It means fresh vegetables, cold drinks, safe leftovers, and actual meal planning instead of relying on ice and coolers. Modern 12V fridges run directly from your vehicle's electrical system and draw surprisingly little power — most pull 1–4 amps per hour depending on ambient temperature and how often you open the lid.",
+    "buyingAdvice": "Size matters more than you think. A 35L fridge suits solo travelers or couples who shop every few days. Families or meal-preppers should look at 45–60L models. Pay attention to the compressor brand (Secop/Danfoss are the gold standard), low-voltage cutoff settings (to protect your starter battery), and whether the fridge fits your van's floor plan. Top-opening models are more efficient but harder to organize; front-opening models waste more cold air but offer better access.",
+    "howWeTest": "We measure power draw over 24 hours in three conditions: 70°F ambient, 90°F ambient, and with the door opened every 30 minutes. We test cool-down time from room temperature to 37°F, freezer performance at -4°F, noise levels at 1 meter, and real-world amp-hour consumption across a full week of normal van life use."
   },
   {
     "slug": "cookware",
     "name": "Compact Cookware",
     "icon": "UtensilsCrossed",
-    "image": "/images/categories/cookware.jpg"
+    "image": "/images/categories/cookware.jpg",
+    "intro": "Van life cookware needs to do everything your home kitchen set does — in a fraction of the space. The best compact cookware nests efficiently, heats evenly on single burners, and survives years of rough handling in a moving vehicle. Forget the 12-piece sets you'd buy for a house; in a van, you need 3–5 versatile pieces that cover 90% of meals.",
+    "buyingAdvice": "Start with a nesting set that includes a 1.5L pot and an 8-inch skillet — those two pieces handle most meals. Stainless steel is durable and non-reactive but heavier; hard-anodized aluminum is lighter and heats faster but can warp on high heat. Titanium is ultralight and nearly indestructible but conducts heat poorly and costs significantly more. Make sure any cookware you buy works with your cooktop — induction requires ferromagnetic material like stainless steel or cast iron.",
+    "howWeTest": "We cook 50+ meals with each set over a month, testing heat distribution with pancake tests, nonstick durability with egg slides after 100 uses, and handle temperature during extended cooking. We stack and nest each set to verify claimed dimensions, weigh everything on a kitchen scale, and abuse-test by dropping pieces from counter height onto concrete."
   },
   {
     "slug": "water",
     "name": "Water Filters",
     "icon": "Droplets",
-    "image": "/images/categories/water.jpg"
+    "image": "/images/categories/water.jpg",
+    "intro": "Clean water is non-negotiable on the road. Municipal campground spigots can carry sediment, chlorine taste, and occasionally harmful contaminants. Filling up from streams or springs while boondocking adds bacteria and protozoa to the risk list. A good water filter removes the worry so you can fill from nearly any potable source with confidence — and some can even handle backcountry water in a pinch.",
+    "buyingAdvice": "For most van dwellers, a gravity-fed or inline filter that attaches to your fresh water tank is the best approach. Look for NSF 42 certification (taste and odor) at minimum, and NSF 53 (health contaminants) if you fill from unknown sources frequently. Flow rate matters too — a filter that takes 10 minutes to fill a water bottle gets abandoned fast. Consider a two-stage system with a sediment pre-filter to extend the life of your main cartridge.",
+    "howWeTest": "We test flow rate at the start and after filtering 200 gallons, measure TDS (total dissolved solids) before and after filtration, test chlorine removal with reagent drops, and verify turbidity reduction with an NTU meter. We also track how long each filter cartridge lasts in real-world van use and calculate cost per gallon."
   },
   {
     "slug": "storage",
     "name": "Kitchen Storage",
     "icon": "Package",
-    "image": "/images/categories/storage.jpg"
+    "image": "/images/categories/storage.jpg",
+    "intro": "The difference between a chaotic van kitchen and a functional one comes down to storage. When every pot, spice jar, and utensil has a secure home, cooking on the road feels effortless instead of frustrating. Good van kitchen storage prevents rattling while driving, maximizes vertical space in shallow cabinets, and makes everything accessible without unpacking half the kitchen to reach the cutting board.",
+    "buyingAdvice": "Prioritize containers that stack, nest, and won't pop open on rough roads. Airtight is essential for dry goods — both for freshness and to avoid attracting pests. Magnetic spice racks free up cabinet space and look great. Drawer organizers with non-slip liners keep utensils from becoming a jumbled mess. Measure your cabinet dimensions before buying anything — a container that's half an inch too tall is useless.",
+    "howWeTest": "We load storage solutions into test vans and drive 500+ miles of mixed road conditions, including washboard dirt roads. We check for lid failures, rattling, shifting, and ease of one-handed access while parked on uneven ground. We also measure actual usable volume versus marketed capacity and test how well each container resists odor transfer."
   },
   {
     "slug": "solar",
     "name": "Solar Cooking",
     "icon": "Sun",
-    "image": "/images/categories/solar.jpg"
+    "image": "/images/categories/solar.jpg",
+    "intro": "Solar cooking is the most fuel-free way to prepare meals on the road. No propane to refill, no battery draw, no ventilation worries — just sunlight. Modern solar ovens can reach 300–400°F on a clear day, enough to bake bread, roast vegetables, or slow-cook a stew while you're off hiking. They're an ideal companion to your primary cooktop, not a replacement for it.",
+    "buyingAdvice": "Solar cookers split into two types: panel cookers (lightweight, fold flat, reach lower temperatures) and box/tube ovens (heavier, bulkier, reach higher temperatures for actual baking). If you mostly want to reheat or slow-cook, a panel cooker is lighter and easier to store. If you want to bake bread or roast a chicken, invest in a tube or box oven. Check the collapsed dimensions against your storage space — some solar ovens are surprisingly large when folded.",
+    "howWeTest": "We test solar cookers across multiple weather conditions and latitudes. We measure internal temperature every 15 minutes in full sun, partial cloud, and at different angles. We cook standardized recipes — rice, bread, roasted vegetables — and rate for even cooking, setup time, and wind stability. We also measure fold-down dimensions and weight for van storage practicality."
   },
   {
     "slug": "coffee",
     "name": "Coffee Gear",
     "icon": "Coffee",
-    "image": "/images/categories/coffee.jpg"
+    "image": "/images/categories/coffee.jpg",
+    "intro": "For most van dwellers, the morning coffee ritual is sacred. A bad cup at 6 AM in a cold van can ruin the whole day — and a great one makes everything feel right. Van life coffee gear needs to brew excellent coffee without taking up much space, work without electricity (or with minimal power), and survive being bounced around in a moving vehicle every day.",
+    "buyingAdvice": "The AeroPress and pour-over drippers are the most popular van life coffee methods for good reason: they're compact, nearly unbreakable, and make cafe-quality coffee with just hot water. Moka pots work great on gas burners but can be finicky on induction. French presses make rich coffee but are harder to clean with limited water. If you're a serious espresso lover, manual lever espresso makers deliver real espresso without electricity. A quality hand grinder is worth the investment — pre-ground coffee goes stale fast.",
+    "howWeTest": "We brew 30+ cups with each piece of gear, testing across different grind sizes and water temperatures. We evaluate extraction quality with a refractometer, taste-test blind alongside coffee shop benchmarks, measure brew time, and assess cleanup difficulty with limited water. Durability testing includes drop tests and 1,000-mile road vibration to check for cracks and seal failures."
   },
   {
     "slug": "knives",
     "name": "Knives & Prep",
     "icon": "ChefHat",
-    "image": "/images/categories/knives.jpg"
+    "image": "/images/categories/knives.jpg",
+    "intro": "A sharp knife and a solid cutting board are the foundation of every van kitchen. You don't need a full knife block on the road — one excellent chef's knife or santoku, a paring knife, and a compact cutting board will handle everything from dicing onions to breaking down a whole chicken. The key is buying quality pieces that hold an edge, since sharpening options are limited in a van.",
+    "buyingAdvice": "For your primary knife, invest in a 6–8 inch chef's knife or santoku made from high-carbon stainless steel — it holds an edge longer than soft stainless and won't rust like pure carbon steel. A magnetic knife strip or blade guard is essential for safe storage in a moving vehicle. For cutting boards, flexible thin boards save space but lack stability; a compact end-grain board is more durable and knife-friendly. Avoid glass cutting boards entirely — they dull knives instantly and can shatter on rough roads.",
+    "howWeTest": "We test edge retention by slicing through 200 sheets of cardboard (a standardized abrasion test), then check sharpness with a BESS edge tester. We chop, dice, and mince 10 lbs of mixed vegetables to evaluate grip comfort and balance. Cutting boards are tested for knife scarring, warping after 50 wash cycles, and slip resistance on uneven van surfaces."
   },
   {
     "slug": "appliances",
     "name": "Small Appliances",
     "icon": "Zap",
-    "image": "/images/categories/appliances.jpg"
+    "image": "/images/categories/appliances.jpg",
+    "intro": "Small appliances can transform a van kitchen from basic to genuinely capable. A compact blender makes smoothies and soups possible. A toaster oven bakes and broils without heating up the whole van. A rice cooker produces perfect grains hands-free while you set up camp. The catch is power — every appliance draws from your battery bank, so you need to be strategic about which ones earn their space.",
+    "buyingAdvice": "Before buying any small appliance, check two numbers: wattage and your inverter capacity. Most van inverters are 1,000–2,000W, and you can only run one high-draw appliance at a time. A 700W blender works fine, but running it alongside a 1,200W induction cooktop will trip your inverter. Prioritize appliances that replace multiple tools — a toaster oven that also air-fries eliminates the need for a separate air fryer. Always verify the physical dimensions fit your counter and storage space.",
+    "howWeTest": "We measure actual wattage draw with a Kill A Watt meter (manufacturer specs are often peak, not sustained), test performance across the appliance's primary use case 20+ times, and rate noise levels in decibels at 1 meter. We also evaluate how easy each appliance is to clean with limited water and whether it can be stored securely without taking up excessive cabinet space."
   },
   {
     "slug": "drinkware",
     "name": "Drinkware",
     "icon": "GlassWater",
-    "image": "/images/categories/drinkware.jpg"
+    "image": "/images/categories/drinkware.jpg",
+    "intro": "Van life drinkware takes a beating that no regular mug or glass can handle. Your morning coffee mug slides off the counter during a mountain pass. Your water bottle bakes in a 120°F van on a summer afternoon. Your wine glass needs to survive being tossed in a drawer with utensils. The best van life drinkware is insulated, virtually indestructible, and keeps your drinks at the right temperature for hours.",
+    "buyingAdvice": "Double-wall vacuum insulated is the standard for van life. It keeps coffee hot for 6+ hours and cold drinks cold all day, even in a hot van. Stainless steel is the most durable material — it survives drops, dents instead of shattering, and doesn't leach chemicals. Look for lids that seal fully (spill-proof, not just splash-proof) because drinks will tip over while driving. For wine and cocktails, stemless insulated tumblers with lids work far better than traditional glasses.",
+    "howWeTest": "We measure temperature retention at 1, 3, 6, and 12 hours for both hot and cold drinks. We drop-test from 4 feet onto concrete and check for dents, cracks, and seal failures. We test lid leak resistance by shaking filled containers 50 times and measuring any spillage. We also evaluate hand feel, dishwasher durability, and whether condensation forms on the exterior in humid conditions."
   }
 ]

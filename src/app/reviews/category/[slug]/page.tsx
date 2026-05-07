@@ -86,6 +86,36 @@ export default function CategoryReviewsPage({ params }: { params: { slug: string
           </p>
         </div>
 
+        {category.intro && (
+          <div className="max-w-3xl mx-auto mb-16 space-y-10">
+            <div className="prose-editorial">
+              <p className="text-lg leading-[1.85] text-earth-800">{category.intro}</p>
+            </div>
+
+            {category.buyingAdvice && (
+              <div className="bg-white rounded-3xl border border-earth-100 p-8 md:p-10 shadow-soft-xl">
+                <div className="flex items-center gap-4 mb-5">
+                  <span className="section-number">— Buying</span>
+                  <span className="eyebrow">What to Look For</span>
+                </div>
+                <p className="text-earth-700 leading-[1.85]">{category.buyingAdvice}</p>
+              </div>
+            )}
+
+            {category.howWeTest && (
+              <div className="bg-earth-950 text-white rounded-4xl p-8 md:p-10 grain relative overflow-hidden">
+                <div className="relative z-10">
+                  <div className="flex items-center gap-4 mb-5">
+                    <span className="section-number text-earth-400">— Testing</span>
+                    <span className="eyebrow">How We Test</span>
+                  </div>
+                  <p className="text-white/80 leading-[1.85]">{category.howWeTest}</p>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {categoryProducts.length === 0 ? (
           <div className="py-20 text-center text-earth-500">No products reviewed in this category yet.</div>
         ) : (
